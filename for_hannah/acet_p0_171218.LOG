@@ -1,0 +1,2852 @@
+
+
+                    SINGLE2014 Diffractometer Control Program
+                             RJ ANGEL, LW FINGER
+                          BASE VERSION OF 10-Nov-2017
+VERSION FOR  Northwestern HUBER ON SMC9300 INTERFACE
+NORMAL MODE
+Started at:18-DEC-17 18:36
+
+
+SUCCESSFULLY OPENED MAT FILE:
+
+
+ Mat File is: acet_p0_171218.mat
+
+
+
+
+ Cell      7.10164   9.38070  11.70974  89.983  97.424  90.006  773.5437
+
+ Peak Centering Parameters
+   Minimum Count Rate:  30 cps, Max/Min Ratio:  2.0, Max Time/Step:  10 secs
+   Required counts on maximum: 250 cps
+   Initial Omega Scan width = 1.00+0.35 tan(th)
+   2Theta/omega will be scanned
+   Chi scan parameters:    31 steps, width parameter =  0.25
+   Final omega scan:  51 steps, width = 0.30+0.35 tan(th)
+   Slit settings: Motor 5 = 2.00 Motor 6 = 9.00
+
+   Final omega scan will be fit by PROFILE
+
+   Refinement flags for fitting final omega scans:
+   Value of eta is fixed at: 0.00
+   Intensity ratio of omega scans is not refined
+
+
+   Current 2 wavelengths are: 0.709316 and 0.713606   Intensity ratio = 0.555
+
+
+
+Current Device is DAC        with following constraints:
+  Fixed Phi Mode, Psi(max) = 90.0
+
+
+
+18-DEC-17:18:36:SINGLE>mot 1 19.61
+18-DEC-17:18:36:SINGLE>mot 5 9
+18-DEC-17:18:37:SINGLE>mot 3 239
+18-DEC-17:18:37:SINGLE>opsh
+18-DEC-17:18:37:SINGLE>mot 4 23.73
+18-DEC-17:18:38:SINGLE>clsh
+18-DEC-17:18:38:SINGLE>cent
+ Angles:    19.562   -0.021  237.643   23.730, Rate:   221.400
+                    Width:  0.064 Eta:  0.000
+ Calculated indices:   2.20   1.08   3.56
+Add to Reflection List<Y,N>,<Y>?y
+18-DEC-17:18:42:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328   -0.768  -12.185    0.000    8    1      528
+  2   2.0  -1.0  -1.0   12.425   20.925  -61.285    0.000    8    1      494
+  3   2.0   1.0  -1.0   12.428  -19.951  -62.345    0.000    8    1      504
+  4   2.0   0.0  -2.0   12.727    0.082  -46.079    0.000    8    1      336
+  5   2.0  -1.0   1.0   13.246   20.329  -95.018    0.000    8    1      157
+  6   2.0   1.0   1.0   13.244  -17.941  -95.647    0.000    8    1      164
+  7   1.0  -1.0   3.0   13.372   20.463 -134.832    0.000    8    1      215
+  8   1.0   1.0   3.0   13.370  -17.441 -134.785    0.000    8    1      219
+  9   1.0  -1.0   4.0   16.456   16.819 -140.631    0.000    8    1      373
+ 10   1.0   1.0   4.0   16.455  -13.820 -140.518    0.000    8    1      381
+ 11   2.0   0.0  -4.0   17.015   -0.485  -24.250    0.000    8    1      458
+ 12   2.0   1.0   3.0   17.197  -13.182 -118.210    0.000    8    1       55
+ 13   3.0  -1.0   0.0   17.917   14.943  -78.887    0.000    8    1      152
+ 14   3.0   1.0   0.0   17.921  -13.144  -79.492    0.000    8    1      149
+ 15   3.0   1.0  -2.0   18.415  -13.309  -56.622    0.000    8    1      172
+ 16   2.0   0.0   4.0   19.352    1.507 -125.318    0.000    8    1       81
+ 17  -3.0   1.0   3.0   19.635  -12.887  134.262    0.000    8    1      189
+ 18   1.0   1.0   6.0   23.057   -9.431 -146.966    0.000    8    1      108
+ 19   1.0  -1.0   6.0   23.056   12.382 -147.117    0.000    8    1      106
+ 20   3.0   0.0   3.0   21.506    1.388 -108.342    0.000    8    1       73
+ 21   4.0   0.0   2.0   25.178    1.212  -95.333    0.000    8    1      174
+ 22   2.2   1.1   3.6   19.562   -0.021  237.643   23.730    1    1      221
+
+18-DEC-17:18:42:SINGLE>del 1,-22
+
+LIST IS EMPTY
+18-DEC-17:18:42:SINGLE>cent
+ Angles:    19.625   -0.052  237.320   23.730, Rate:   238.200
+                    Width:  0.066 Eta:  0.000
+ Calculated indices:   2.19   1.10   3.59
+Add to Reflection List<Y,N>,<Y>?y
+18-DEC-17:18:46:SINGLE>mot 1 12.89
+18-DEC-17:18:47:SINGLE>mot 3 326.0
+18-DEC-17:18:47:SINGLE>mot 2 10
+18-DEC-17:18:47:SINGLE>mot 2 0
+18-DEC-17:18:47:SINGLE>mot 4 10
+18-DEC-17:18:47:SINGLE>opsh
+18-DEC-17:18:47:SINGLE>clsh
+18-DEC-17:18:49:SINGLE>mot 4 2.16
+18-DEC-17:18:49:SINGLE>cent
+ Failure in Center: Max/Min counts too small on theta/2theta scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   20.7250    0.0575  326.0000    2.1600
+ Peak Not Centered.
+18-DEC-17:18:51:SINGLE>opsh
+18-DEC-17:18:51:SINGLE>clsh
+18-DEC-17:18:51:SINGLE>mot 1 12.4
+18-DEC-17:18:53:SINGLE>mot 3 221.1
+18-DEC-17:18:53:SINGLE>mot 4 10
+18-DEC-17:18:53:SINGLE>opsh
+18-DEC-17:18:53:SINGLE>mot 4 0
+18-DEC-17:18:56:SINGLE>mot 1 12.89
+18-DEC-17:18:56:SINGLE>mot 3 326.0
+18-DEC-17:18:56:SINGLE>mot 4 10
+18-DEC-17:18:56:SINGLE>clsh
+18-DEC-17:18:57:SINGLE>mot 4 2.06
+18-DEC-17:18:57:SINGLE>cent
+ Failure in Center: Max/Min counts too small on theta/2theta scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   19.4225    0.1137  326.0000    2.0600
+ Peak Not Centered.
+18-DEC-17:18:58:SINGLE>mot 1 12.4
+18-DEC-17:19:06:SINGLE>mot 3 221.1
+18-DEC-17:19:06:SINGLE>mot 4 10
+18-DEC-17:19:06:SINGLE>opsh
+18-DEC-17:19:06:SINGLE>clsh
+18-DEC-17:19:07:SINGLE>mot 4 28.035
+18-DEC-17:19:07:SINGLE>prof
+
+PROF: INPUT 1=TH/2TH, 2=OMEGA, 3=CHI, 4=PHI, 5=2THETA:4
+ENTER NUMBER OF STEPS:20
+ENTER STEP SIZE (DEGREES):0.01
+ENTER COUNT TIME PER STEP:0.5
+18-DEC-17:19:08:SINGLE>mot 4 27.9
+18-DEC-17:19:08:SINGLE>mot 4 27.95
+18-DEC-17:19:08:SINGLE>cent
+ Angles:    12.420    0.072  220.988   27.950, Rate:   506.000
+                    Width:  0.057 Eta:  0.000
+ Calculated indices:   0.89   1.08   2.75
+Add to Reflection List<Y,N>,<Y>?y
+18-DEC-17:19:11:SINGLE>
+18-DEC-17:19:11:SINGLE>
+18-DEC-17:19:11:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   2.2   1.1   3.6   19.625   -0.052  237.320   23.730    1    1      238
+  2   0.9   1.1   2.8   12.420    0.072  220.988   27.950    1    1      506
+
+18-DEC-17:19:11:SINGLE>indl
+INDL choices: 1 = Manual Indexing, 2 = Index by UB, 3 = Clear Indeces
+INDL: Enter Choice>1
+INDL: Enter List no & hkl>1 -3 1 3
+INDL: Enter List no & hkl>2 2 1 -1
+INDL: Enter List no & hkl>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.625   -0.052  237.320   23.730    1    1      238
+  2   2.0   1.0  -1.0   12.420    0.072  220.988   27.950    1    1      506
+
+18-DEC-17:19:12:SINGLE>mot 5 2
+18-DEC-17:19:12:SINGLE>dvls 1
+18-DEC-17:19:12:SINGLE>cntr
+ Angles:    19.656   -0.078  237.650   23.730, Rate:   204.200
+   Zero:    -0.001, Width:  0.063 Eta:  0.000
+ Calculated indices:   2.21   1.09   3.57
+Add to Reflection List<Y,N>,<Y>?y
+18-DEC-17:19:17:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.625   -0.052  237.320   23.730    1    1      238
+  2   2.0   1.0  -1.0   12.420    0.072  220.988   27.950    1    1      506
+  3   2.2   1.1   3.6   19.656   -0.078  237.650   23.730    2    1      204
+
+18-DEC-17:19:17:SINGLE>del 1
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   2.0   1.0  -1.0   12.420    0.072  220.988   27.950    1    1      506
+  2   2.2   1.1   3.6   19.656   -0.078  237.650   23.730    2    1      204
+
+18-DEC-17:19:17:SINGLE>dvls 1
+18-DEC-17:19:17:SINGLE>cntr
+ Angles:    12.438    0.067  220.915   27.950, Rate:   557.800
+   Zero:    -0.008, Width:  0.053 Eta:  0.000
+ Calculated indices:   0.89   1.08   2.76
+Add to Reflection List<Y,N>,<Y>?Y
+18-DEC-17:19:21:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   2.0   1.0  -1.0   12.420    0.072  220.988   27.950    1    1      506
+  2   2.2   1.1   3.6   19.656   -0.078  237.650   23.730    2    1      204
+  3   0.9   1.1   2.8   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:21:SINGLE>del 1
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   2.2   1.1   3.6   19.656   -0.078  237.650   23.730    2    1      204
+  2   0.9   1.1   2.8   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:21:SINGLE>indl
+INDL choices: 1 = Manual Indexing, 2 = Index by UB, 3 = Clear Indeces
+INDL: Enter Choice>1
+INDL: Enter List no & hkl>1 -3 1 3
+INDL: Enter List no & hkl>2 2 1 -1
+INDL: Enter List no & hkl>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0  -1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:21:SINGLE>com 1,2
+ Observed Angle:   16.93,    Calculated:  143.32
+
+ Orientation Matrix:
+     0.04939    -0.09994     0.00429
+    -0.05282    -0.01520    -0.08247
+     0.12221     0.03383    -0.02445
+COM: Do You Wish to Update Matrix<Y,N>?N
+18-DEC-17:19:21:SINGLE>indl
+INDL choices: 1 = Manual Indexing, 2 = Index by UB, 3 = Clear Indeces
+INDL: Enter Choice>1
+INDL: Enter List no & hkl>2 2 -1 -1
+INDL: Enter List no & hkl>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0  -1.0  -1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:21:SINGLE>com 1,2
+ Observed Angle:   16.93,    Calculated:  163.10
+
+ Orientation Matrix:
+    -0.01371    -0.02586    -0.08350
+     0.04827     0.09631    -0.01854
+     0.13284    -0.03766     0.01001
+COM: Do You Wish to Update Matrix<Y,N>?N
+18-DEC-17:19:21:SINGLE>indl
+INDL choices: 1 = Manual Indexing, 2 = Index by UB, 3 = Clear Indeces
+INDL: Enter Choice>1
+INDL: Enter List no & hkl>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0  -1.0  -1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:22:SINGLE>inl
+     There are now  2 reflections in the list
+INL: Enter Laue group>2/m
+INL: Enter h,k,l>-3 1 3
+ REFLECTION   -3   1   3 ALREADY IN THE LIST
+ REFLECTION    3  -1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION   -3  -1   3 ADDED TO LIST
+ REFLECTION    3   1  -3 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  3 reflections in the list
+INL: Enter h,k,l>2 1  -1
+ REFLECTION    2   1  -1 ADDED TO LIST
+ REFLECTION   -2  -1   1 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2  -1  -1 ALREADY IN THE LIST
+ REFLECTION   -2   1   1 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  4 reflections in the list
+INL: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0  -1.0  -1.0   12.438    0.067  220.915   27.950    2    1      557
+  3  -3.0  -1.0   3.0   19.636   12.721  133.581    0.000    0    1        0
+  4   2.0   1.0  -1.0   12.427  -19.947  -62.348    0.000    0    1        0
+
+18-DEC-17:19:23:SINGLE>ang
+Unknown command
+18-DEC-17:19:23:SINGLE>angl
+
+         1     2     3
+  2:  16.9
+  3: 108.4  95.2
+  4:  55.7  68.0 163.1
+18-DEC-17:19:23:SINGLE>com 1,2
+ Observed Angle:   16.93,    Calculated:  163.10
+
+ Orientation Matrix:
+    -0.01371    -0.02586    -0.08350
+     0.04827     0.09631    -0.01854
+     0.13284    -0.03766     0.01001
+COM: Do You Wish to Update Matrix<Y,N>?N
+18-DEC-17:19:24:SINGLE>inh
+INH: Enter h,k,l>-2 -1 1
+INH: Enter h,k,l>-2 1 1
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0  -1.0  -1.0   12.438    0.067  220.915   27.950    2    1      557
+  3  -3.0  -1.0   3.0   19.636   12.721  133.581    0.000    0    1        0
+  4   2.0   1.0  -1.0   12.427  -19.947  -62.348    0.000    0    1        0
+  5  -2.0  -1.0   1.0   12.427   19.947  117.652    0.000    0    1        0
+  6  -2.0   1.0   1.0   12.425  -20.934  118.712    0.000    0    1        0
+
+18-DEC-17:19:24:SINGLE>angl
+
+         1     2     3     4     5
+  2:  16.9
+  3: 108.4  95.2
+  4:  55.7  68.0 163.1
+  5: 124.3 112.0  16.9 180.0
+  6: 113.3  96.3  36.7 139.1  40.9
+18-DEC-17:19:24:SINGLE>indl
+INDL choices: 1 = Manual Indexing, 2 = Index by UB, 3 = Clear Indeces
+INDL: Enter Choice>1
+INDL: Enter List no & hkl>1 -3 -1 3
+INDL: Enter List no & hkl>2 -2 -1 1
+INDL: Enter List no & hkl>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0  -1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2  -2.0  -1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3  -3.0  -1.0   3.0   19.636   12.721  133.581    0.000    0    1        0
+  4   2.0   1.0  -1.0   12.427  -19.947  -62.348    0.000    0    1        0
+  5  -2.0  -1.0   1.0   12.427   19.947  117.652    0.000    0    1        0
+  6  -2.0   1.0   1.0   12.425  -20.934  118.712    0.000    0    1        0
+
+18-DEC-17:19:25:SINGLE>com 1,2
+ Observed Angle:   16.93,    Calculated:   16.89
+
+ Orientation Matrix:
+     0.06202     0.09501     0.01527
+     0.10356    -0.04587     0.05356
+     0.07479    -0.01527    -0.06569
+COM: Do You Wish to Update Matrix<Y,N>?Y
+18-DEC-17:19:25:SINGLE>del 3,-6
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0  -1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2  -2.0  -1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:25:SINGLE>inh
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0  -1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2  -2.0  -1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:25:SINGLE>inl
+INL: Enter Laue group>2/m
+INL: Enter h,k,l>1 0 3
+ REFLECTION    1   0   3 OUT-OF-BOUNDS
+ REFLECTION   -1   0  -3 OUT-OF-BOUNDS
+ REFLECTION    1   0   3 OUT-OF-BOUNDS
+ REFLECTION   -1   0  -3 OUT-OF-BOUNDS
+INL: Enter h,k,l>2 1 1
+ REFLECTION    2   1   1 OUT-OF-BOUNDS
+ REFLECTION   -2  -1  -1 OUT-OF-BOUNDS
+ REFLECTION    2  -1   1 OUT-OF-BOUNDS
+ REFLECTION   -2   1  -1 OUT-OF-BOUNDS
+INL: Enter h,k,l>1 1 3
+ REFLECTION    1   1   3 OUT-OF-BOUNDS
+ REFLECTION   -1  -1  -3 OUT-OF-BOUNDS
+ REFLECTION    1  -1   3 OUT-OF-BOUNDS
+ REFLECTION   -1   1  -3 OUT-OF-BOUNDS
+INL: Enter h,k,l>1 1 4
+ REFLECTION    1   1   4 OUT-OF-BOUNDS
+ REFLECTION   -1  -1  -4 OUT-OF-BOUNDS
+ REFLECTION    1  -1   4 OUT-OF-BOUNDS
+ REFLECTION   -1   1  -4 OUT-OF-BOUNDS
+INL: Enter h,k,l>2 0 4
+ REFLECTION    2   0   4 OUT-OF-BOUNDS
+ REFLECTION   -2   0  -4 OUT-OF-BOUNDS
+ REFLECTION    2   0   4 OUT-OF-BOUNDS
+ REFLECTION   -2   0  -4 OUT-OF-BOUNDS
+INL: Enter h,k,l>2 1 3
+ REFLECTION    2   1   3 OUT-OF-BOUNDS
+ REFLECTION   -2  -1  -3 OUT-OF-BOUNDS
+ REFLECTION    2  -1   3 OUT-OF-BOUNDS
+ REFLECTION   -2   1  -3 OUT-OF-BOUNDS
+INL: Enter h,k,l>3 1 0
+ REFLECTION    3   1   0 OUT-OF-BOUNDS
+ REFLECTION   -3  -1   0 ADDED TO LIST
+ REFLECTION    3  -1   0 OUT-OF-BOUNDS
+ REFLECTION   -3   1   0 OUT-OF-BOUNDS
+     There are now  3 reflections in the list
+INL: Enter h,k,l>3 1 2
+ REFLECTION    3   1   2 OUT-OF-BOUNDS
+ REFLECTION   -3  -1  -2 OUT-OF-BOUNDS
+ REFLECTION    3  -1   2 OUT-OF-BOUNDS
+ REFLECTION   -3   1  -2 OUT-OF-BOUNDS
+INL: Enter h,k,l>2 0 4
+ REFLECTION    2   0   4 OUT-OF-BOUNDS
+ REFLECTION   -2   0  -4 OUT-OF-BOUNDS
+ REFLECTION    2   0   4 OUT-OF-BOUNDS
+ REFLECTION   -2   0  -4 OUT-OF-BOUNDS
+INL: Enter h,k,l>-3 1 3
+ REFLECTION   -3   1   3 ADDED TO LIST
+ REFLECTION    3  -1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION   -3  -1   3 ALREADY IN THE LIST
+ REFLECTION    3   1  -3 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  4 reflections in the list
+INL: Enter h,k,l>1 1 6
+ REFLECTION    1   1   6 OUT-OF-BOUNDS
+ REFLECTION   -1  -1  -6 OUT-OF-BOUNDS
+ REFLECTION    1  -1   6 OUT-OF-BOUNDS
+ REFLECTION   -1   1  -6 OUT-OF-BOUNDS
+INL: Enter h,k,l>3 1 3
+ REFLECTION    3   1   3 OUT-OF-BOUNDS
+ REFLECTION   -3  -1  -3 OUT-OF-BOUNDS
+ REFLECTION    3  -1   3 OUT-OF-BOUNDS
+ REFLECTION   -3   1  -3 OUT-OF-BOUNDS
+INL: Enter h,k,l>3 0 3
+ REFLECTION    3   0   3 OUT-OF-BOUNDS
+ REFLECTION   -3   0  -3 OUT-OF-BOUNDS
+ REFLECTION    3   0   3 OUT-OF-BOUNDS
+ REFLECTION   -3   0  -3 OUT-OF-BOUNDS
+INL: Enter h,k,l>4 0 2
+ REFLECTION    4   0   2 OUT-OF-BOUNDS
+ REFLECTION   -4   0  -2 OUT-OF-BOUNDS
+ REFLECTION    4   0   2 OUT-OF-BOUNDS
+ REFLECTION   -4   0  -2 OUT-OF-BOUNDS
+INL: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0  -1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2  -2.0  -1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3  -3.0  -1.0   0.0   17.920  -37.085 -143.351    0.000    0    1        0
+  4  -3.0   1.0   3.0   19.635  -24.041  -95.914    0.000    0    1        0
+
+18-DEC-17:19:26:SINGLE>dvls 4
+18-DEC-17:19:26:SINGLE>cent
+ Failure in Center: peak too weak on initial omega scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   19.6350  -23.9500  -95.9150    0.0000
+ Peak Not Centered.
+18-DEC-17:19:26:SINGLE>park
+18-DEC-17:19:27:SINGLE>dvls 3
+18-DEC-17:19:27:SINGLE>cent
+ Centering halted, end of scan of motor 2 out-of-bounds
+ Failure in Center during initial omega scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   17.9200  -37.4825 -143.3500    0.0000
+ Peak Not Centered.
+18-DEC-17:19:27:SINGLE>park
+18-DEC-17:19:28:SINGLE>del 3,4
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0  -1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2  -2.0  -1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:28:SINGLE>indl 1 3 1 3
+INDL: Enter List no & hkl>1 3 1 3
+INDL: Enter List no & hkl>2 2 1 1
+INDL: Enter List no & hkl>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:29:SINGLE>com 1,2
+ Observed Angle:   16.93,    Calculated:   14.70
+
+ Orientation Matrix:
+    -0.05869    -0.09657     0.00334
+    -0.09754     0.04018     0.04541
+    -0.08489     0.02058    -0.07310
+COM: Do You Wish to Update Matrix<Y,N>?N
+18-DEC-17:19:29:SINGLE>indl
+INDL choices: 1 = Manual Indexing, 2 = Index by UB, 3 = Clear Indeces
+INDL: Enter Choice>1
+INDL: Enter List no & hkl>1 -3 1 3
+INDL: Enter List no & hkl>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:29:SINGLE>com 1,2
+ Observed Angle:   16.93,    Calculated:  121.91
+
+ Orientation Matrix:
+     0.01254    -0.09704    -0.03353
+    -0.03111     0.04032    -0.07926
+     0.13799     0.01792    -0.00337
+COM: Do You Wish to Update Matrix<Y,N>?N
+18-DEC-17:19:30:SINGLE>inl
+INL: Enter Laue group>2/m
+INL: Enter h,k,l>3 1 3
+ REFLECTION    3   1   3 OUT-OF-BOUNDS
+ REFLECTION   -3  -1  -3 OUT-OF-BOUNDS
+ REFLECTION    3  -1   3 OUT-OF-BOUNDS
+ REFLECTION   -3   1  -3 OUT-OF-BOUNDS
+INL: Enter h,k,l>2 1 1
+ REFLECTION    2   1   1 ALREADY IN THE LIST
+ REFLECTION   -2  -1  -1 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2  -1   1 OUT-OF-BOUNDS
+ REFLECTION   -2   1  -1 OUT-OF-BOUNDS
+INL: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:30:SINGLE>inh
+INH: Enter h,k,l>3 1 3
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>-3 -1 -3
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>3 -1 3
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>-3 1 -3
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>2 1 1
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>-2 -1 -1
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>2 -1 1
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>-2 1 -1
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:31:SINGLE>om
+
+Enter new UB on 3 lines:
+
+OM: Input UB line 1>0.02670    -0.00197    -0.08177
+OM: Input UB line 2>0.00275    -0.10654     0.00215
+OM: Input UB line 3>-0.13944    -0.00249    -0.02694
+
+
+ Cell      7.10172   9.38198  11.70969  89.994  97.419  90.007  773.6635
+18-DEC-17:19:34:SINGLE>
+18-DEC-17:19:34:SINGLE>inh
+INH: Enter h,k,l>3 1 3
+INH: Enter h,k,l>-3 -1 -3
+INH: Enter h,k,l>3 -1 3
+INH: Enter h,k,l>-3 1 -3
+INH: Enter h,k,l>-3 1 3
+INH: Enter h,k,l>2 1 1
+INH: Enter h,k,l>2 -1 -1
+INH: Enter h,k,l>2 -1 1
+INH: Enter h,k,l>-2 1 -1
+INH: Enter h,k,l>2 1 -1
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   3.0   1.0   3.0   21.945   -9.853 -108.432    0.000    0    1        0
+  4  -3.0  -1.0  -3.0   21.945    9.853   71.568    0.000    0    1        0
+  5   3.0  -1.0   3.0   21.944   13.057 -108.195    0.000    0    1        0
+  6  -3.0   1.0  -3.0   21.944  -13.057   71.805    0.000    0    1        0
+  7  -3.0   1.0   3.0   19.635  -13.023  134.340    0.000    0    1        0
+  8   2.0   1.0   1.0   13.246  -17.703  -95.620    0.000    0    1        0
+  9   2.0  -1.0  -1.0   12.425   21.108  -61.199    0.000    0    1        0
+ 10   2.0  -1.0   1.0   13.245   20.558  -94.974    0.000    0    1        0
+ 11  -2.0   1.0  -1.0   13.245  -20.558   85.026    0.000    0    1        0
+ 12   2.0   1.0  -1.0   12.426  -19.764  -62.367    0.000    0    1        0
+
+18-DEC-17:19:35:SINGLE>angl
+
+         1     2     3     4     5     6     7     8     9    10    11
+  2:  16.9
+  3:  11.7  28.3
+  4: 168.3 151.7 180.0
+  5:  28.2  43.2  22.9 157.1
+  6: 151.8 136.8 157.1  22.9 180.0
+  7: 101.9  85.5 113.6  66.4 119.3  60.7
+  8:  24.2  37.8  14.7 165.3  33.2 146.8 121.9
+  9:  66.9  83.8  55.8 124.2  45.5 134.5 163.1  51.4
+ 10:  41.3  57.2  33.2 146.8  14.7 165.3 132.4  38.3  31.5
+ 11: 138.7 122.8 146.8  33.2 165.3  14.7  47.6 141.7 148.5 180.0
+ 12:  55.7  68.0  45.5 134.5  55.8 124.2 143.3  31.5  40.9  51.4 128.6
+18-DEC-17:19:35:SINGLE>
+18-DEC-17:19:38:SINGLE>
+18-DEC-17:19:38:SINGLE>del 3,-12
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:38:SINGLE>inh
+INH: Enter h,k,l>2 1 0
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   2.0   1.0   0.0   12.352  -19.456  -79.642    0.000    0    1        0
+
+18-DEC-17:19:38:SINGLE>angl
+
+         1     2
+  2:  16.9
+  3:  39.4  52.3
+18-DEC-17:19:38:SINGLE>inl
+     There are now  3 reflections in the list
+INL: Enter Laue group>2/m
+INL: Enter h,k,l>2 1 0
+ REFLECTION    2   1   0 ALREADY IN THE LIST
+ REFLECTION   -2  -1   0 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2  -1   0 ADDED TO LIST
+ REFLECTION   -2   1   0 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  4 reflections in the list
+INL: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   2.0   1.0   0.0   12.352  -19.456  -79.642    0.000    0    1        0
+  4   2.0  -1.0   0.0   12.352   21.676  -78.672    0.000    0    1        0
+
+18-DEC-17:19:39:SINGLE>inh
+INH: Enter h,k,l>-2 -1 0
+INH: Enter h,k,l>-2 1 0
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   2.0   1.0   0.0   12.352  -19.456  -79.642    0.000    0    1        0
+  4   2.0  -1.0   0.0   12.352   21.676  -78.672    0.000    0    1        0
+  5  -2.0  -1.0   0.0   12.352   19.456  100.358    0.000    0    1        0
+  6  -2.0   1.0   0.0   12.352  -21.676  101.328    0.000    0    1        0
+
+18-DEC-17:19:39:SINGLE>angl
+
+         1     2     3     4     5
+  2:  16.9
+  3:  39.4  52.3
+  4:  53.1  69.9  41.1
+  5: 140.6 127.7 180.0 138.9
+  6: 126.9 110.1 138.9 180.0  41.1
+18-DEC-17:19:39:SINGLE>inh 3 1 -3
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   2.0   1.0   0.0   12.352  -19.456  -79.642    0.000    0    1        0
+  4   2.0  -1.0   0.0   12.352   21.676  -78.672    0.000    0    1        0
+  5  -2.0  -1.0   0.0   12.352   19.456  100.358    0.000    0    1        0
+  6  -2.0   1.0   0.0   12.352  -21.676  101.328    0.000    0    1        0
+  7   3.0   1.0  -3.0   19.636  -12.582  -46.429    0.000    0    1        0
+
+18-DEC-17:19:40:SINGLE>
+18-DEC-17:19:40:SINGLE>angl
+
+         1     2     3     4     5     6
+  2:  16.9
+  3:  39.4  52.3
+  4:  53.1  69.9  41.1
+  5: 140.6 127.7 180.0 138.9
+  6: 126.9 110.1 138.9 180.0  41.1
+  7:  71.6  84.8  32.6  46.6 147.4 133.4
+18-DEC-17:19:40:SINGLE>del 3,-6
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   3.0   1.0  -3.0   19.636  -12.582  -46.429    0.000    0    1        0
+
+18-DEC-17:19:40:SINGLE>
+18-DEC-17:19:41:SINGLE>
+18-DEC-17:19:41:SINGLE>inh
+INH: Enter h,k,l>2 1 1
+INH: Enter h,k,l>3 1 3
+INH: Enter h,k,l>-3 -1 -3
+INH: Enter h,k,l>3 -1 3
+INH: Enter h,k,l>-3 1 -3
+INH: Enter h,k,l>-3 1 3
+INH: Enter h,k,l>2 1 1
+INH: Enter h,k,l>2 -1 -1
+INH: Enter h,k,l>2 -1 1
+INH: Enter h,k,l>-2 1 -1
+INH: Enter h,k,l>2 1 -1
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   3.0   1.0  -3.0   19.636  -12.582  -46.429    0.000    0    1        0
+  4   2.0   1.0   1.0   13.246  -17.703  -95.620    0.000    0    1        0
+  5   3.0   1.0   3.0   21.945   -9.853 -108.432    0.000    0    1        0
+  6  -3.0  -1.0  -3.0   21.945    9.853   71.568    0.000    0    1        0
+  7   3.0  -1.0   3.0   21.944   13.057 -108.195    0.000    0    1        0
+  8  -3.0   1.0  -3.0   21.944  -13.057   71.805    0.000    0    1        0
+  9  -3.0   1.0   3.0   19.635  -13.023  134.340    0.000    0    1        0
+ 10   2.0   1.0   1.0   13.246  -17.703  -95.620    0.000    0    1        0
+ 11   2.0  -1.0  -1.0   12.425   21.108  -61.199    0.000    0    1        0
+ 12   2.0  -1.0   1.0   13.245   20.558  -94.974    0.000    0    1        0
+ 13  -2.0   1.0  -1.0   13.245  -20.558   85.026    0.000    0    1        0
+ 14   2.0   1.0  -1.0   12.426  -19.764  -62.367    0.000    0    1        0
+
+18-DEC-17:19:41:SINGLE>angl
+
+         1     2     3     4     5     6     7     8     9    10    11    12
+  2:  16.9
+  3:  71.6  84.8
+  4:  24.2  37.8  47.6
+  5:  11.7  28.3  60.7  14.7
+  6: 168.3 151.7 119.3 165.3 180.0
+  7:  28.2  43.2  66.4  33.2  22.9 157.1
+  8: 151.8 136.8 113.6 146.8 157.1  22.9 180.0
+  9: 101.9  85.5 154.4 121.9 113.6  66.4 119.3  60.7
+ 10:  24.2  37.8  47.6   0.0  14.7 165.3  33.2 146.8 121.9
+ 11:  66.9  83.8  36.7  51.4  55.8 124.2  45.5 134.5 163.1  51.4
+ 12:  41.3  57.2  58.1  38.3  33.2 146.8  14.7 165.3 132.4  38.3  31.5
+ 13: 138.7 122.8 121.9 141.7 146.8  33.2 165.3  14.7  47.6 141.7 148.5 180.0
+ 14:  55.7  68.0  16.9  31.5  45.5 134.5  55.8 124.2 143.3  31.5  40.9  51.4
+
+        13
+ 14: 128.6
+18-DEC-17:19:41:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   3.0   1.0  -3.0   19.636  -12.582  -46.429    0.000    0    1        0
+  4   2.0   1.0   1.0   13.246  -17.703  -95.620    0.000    0    1        0
+  5   3.0   1.0   3.0   21.945   -9.853 -108.432    0.000    0    1        0
+  6  -3.0  -1.0  -3.0   21.945    9.853   71.568    0.000    0    1        0
+  7   3.0  -1.0   3.0   21.944   13.057 -108.195    0.000    0    1        0
+  8  -3.0   1.0  -3.0   21.944  -13.057   71.805    0.000    0    1        0
+  9  -3.0   1.0   3.0   19.635  -13.023  134.340    0.000    0    1        0
+ 10   2.0   1.0   1.0   13.246  -17.703  -95.620    0.000    0    1        0
+ 11   2.0  -1.0  -1.0   12.425   21.108  -61.199    0.000    0    1        0
+ 12   2.0  -1.0   1.0   13.245   20.558  -94.974    0.000    0    1        0
+ 13  -2.0   1.0  -1.0   13.245  -20.558   85.026    0.000    0    1        0
+ 14   2.0   1.0  -1.0   12.426  -19.764  -62.367    0.000    0    1        0
+
+18-DEC-17:19:42:SINGLE>del 3,-14
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1  -3.0   1.0   3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0   1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:42:SINGLE>indl
+INDL choices: 1 = Manual Indexing, 2 = Index by UB, 3 = Clear Indeces
+INDL: Enter Choice>1
+INDL: Enter List no & hkl>1 3 1 -3
+INDL: Enter List no & hkl>2 2 1 -1
+INDL: Enter List no & hkl>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   3.0   1.0  -3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0  -1.0   12.438    0.067  220.915   27.950    2    1      557
+
+18-DEC-17:19:43:SINGLE>com 1,2
+ Observed Angle:   16.93,    Calculated:   16.89
+
+ Orientation Matrix:
+    -0.12720     0.00276    -0.04786
+    -0.00196    -0.10653    -0.00276
+    -0.06309    -0.00228     0.07154
+COM: Do You Wish to Update Matrix<Y,N>?Y
+18-DEC-17:19:43:SINGLE>
+18-DEC-17:19:43:SINGLE>inl
+INL: Enter Laue group>2/m
+INL: Enter h,k,l>1 0 -3
+ REFLECTION    1   0  -3 ADDED TO LIST
+ REFLECTION   -1   0   3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1   0  -3 ALREADY IN THE LIST
+ REFLECTION   -1   0   3 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  3 reflections in the list
+INL: Enter h,k,l>2 -1 -1
+ REFLECTION    2  -1  -1 ADDED TO LIST
+ REFLECTION   -2   1   1 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2   1  -1 ALREADY IN THE LIST
+ REFLECTION   -2  -1   1 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  4 reflections in the list
+INL: Enter h,k,l>2 1 -1
+ REFLECTION    2   1  -1 ALREADY IN THE LIST
+ REFLECTION   -2  -1   1 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2  -1  -1 ALREADY IN THE LIST
+ REFLECTION   -2   1   1 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>2 0 -2
+ REFLECTION    2   0  -2 ADDED TO LIST
+ REFLECTION   -2   0   2 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2   0  -2 ALREADY IN THE LIST
+ REFLECTION   -2   0   2 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  5 reflections in the list
+INL: Enter h,k,l>2 -1 1
+ REFLECTION    2  -1   1 ADDED TO LIST
+ REFLECTION   -2   1  -1 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2   1   1 ADDED TO LIST
+ REFLECTION   -2  -1  -1 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  7 reflections in the list
+INL: Enter h,k,l>2 1 1
+ REFLECTION    2   1   1 ALREADY IN THE LIST
+ REFLECTION   -2  -1  -1 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2  -1   1 ALREADY IN THE LIST
+ REFLECTION   -2   1  -1 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>1 -1 3
+ REFLECTION    1  -1   3 ADDED TO LIST
+ REFLECTION   -1   1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1   1   3 ADDED TO LIST
+ REFLECTION   -1  -1  -3 FRIEDEL MATE ALREADY IN THE LIST
+     There are now  9 reflections in the list
+INL: Enter h,k,l>1 1 3
+ REFLECTION    1   1   3 ALREADY IN THE LIST
+ REFLECTION   -1  -1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1  -1   3 ALREADY IN THE LIST
+ REFLECTION   -1   1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>1 -1 4
+ REFLECTION    1  -1   4 ADDED TO LIST
+ REFLECTION   -1   1  -4 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1   1   4 ADDED TO LIST
+ REFLECTION   -1  -1  -4 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 11 reflections in the list
+INL: Enter h,k,l>1 1 4
+ REFLECTION    1   1   4 ALREADY IN THE LIST
+ REFLECTION   -1  -1  -4 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1  -1   4 ALREADY IN THE LIST
+ REFLECTION   -1   1  -4 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>2 0 -4
+ REFLECTION    2   0  -4 ADDED TO LIST
+ REFLECTION   -2   0   4 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2   0  -4 ALREADY IN THE LIST
+ REFLECTION   -2   0   4 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 12 reflections in the list
+INL: Enter h,k,l>2 1 3
+ REFLECTION    2   1   3 ADDED TO LIST
+ REFLECTION   -2  -1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2  -1   3 ADDED TO LIST
+ REFLECTION   -2   1  -3 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 14 reflections in the list
+INL: Enter h,k,l>3 -1 0
+ REFLECTION    3  -1   0 ADDED TO LIST
+ REFLECTION   -3   1   0 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    3   1   0 ADDED TO LIST
+ REFLECTION   -3  -1   0 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 16 reflections in the list
+INL: Enter h,k,l>3 1 0
+ REFLECTION    3   1   0 ALREADY IN THE LIST
+ REFLECTION   -3  -1   0 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    3  -1   0 ALREADY IN THE LIST
+ REFLECTION   -3   1   0 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>3 1 -2
+ REFLECTION    3   1  -2 ADDED TO LIST
+ REFLECTION   -3  -1   2 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    3  -1  -2 ADDED TO LIST
+ REFLECTION   -3   1   2 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 18 reflections in the list
+INL: Enter h,k,l>2 0 4
+ REFLECTION    2   0   4 ADDED TO LIST
+ REFLECTION   -2   0  -4 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2   0   4 ALREADY IN THE LIST
+ REFLECTION   -2   0  -4 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 19 reflections in the list
+INL: Enter h,k,l>-3 1 3
+ REFLECTION   -3   1   3 ADDED TO LIST
+ REFLECTION    3  -1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION   -3  -1   3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    3   1  -3 ALREADY IN THE LIST
+     There are now 20 reflections in the list
+INL: Enter h,k,l>1 1 6
+ REFLECTION    1   1   6 ADDED TO LIST
+ REFLECTION   -1  -1  -6 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1  -1   6 ADDED TO LIST
+ REFLECTION   -1   1  -6 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 22 reflections in the list
+INL: Enter h,k,l>1 -1 6
+ REFLECTION    1  -1   6 ALREADY IN THE LIST
+ REFLECTION   -1   1  -6 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1   1   6 ALREADY IN THE LIST
+ REFLECTION   -1  -1  -6 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>3 0 3
+ REFLECTION    3   0   3 ADDED TO LIST
+ REFLECTION   -3   0  -3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    3   0   3 ALREADY IN THE LIST
+ REFLECTION   -3   0  -3 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 23 reflections in the list
+INL: Enter h,k,l>4 0 2
+ REFLECTION    4   0   2 ADDED TO LIST
+ REFLECTION   -4   0  -2 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    4   0   2 ALREADY IN THE LIST
+ REFLECTION   -4   0  -2 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 24 reflections in the list
+INL: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   3.0   1.0  -3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0  -1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   1.0   0.0  -3.0   11.328    1.301  -86.625    0.000    0    1        0
+  4   2.0  -1.0  -1.0   12.425   20.200 -136.960    0.000    0    1        0
+  5   2.0   0.0  -2.0   12.729    0.293 -120.511    0.000    0    1        0
+  6   2.0  -1.0   1.0   13.245   17.881 -170.259    0.000    0    1        0
+  7   2.0   1.0   1.0   13.246  -20.373 -169.240    0.000    0    1        0
+  8   1.0  -1.0   3.0   13.371   17.057  150.649    0.000    0    1        0
+  9   1.0   1.0   3.0   13.371  -20.839  150.885    0.000    0    1        0
+ 10   1.0  -1.0   4.0   16.456   13.401  144.961    0.000    0    1        0
+ 11   1.0   1.0   4.0   16.456  -17.231  145.045    0.000    0    1        0
+ 12   2.0   0.0  -4.0   17.018    0.978  -98.682    0.000    0    1        0
+ 13   2.0   1.0   3.0   17.197  -16.359  167.699    0.000    0    1        0
+ 14   2.0  -1.0   3.0   17.197   12.929  167.243    0.000    0    1        0
+ 15   3.0  -1.0   0.0   17.919   13.249 -154.056    0.000    0    1        0
+ 16   3.0   1.0   0.0   17.920  -14.832 -153.178    0.000    0    1        0
+ 17   3.0   1.0  -2.0   18.416  -13.704 -130.233    0.000    0    1        0
+ 18   3.0  -1.0  -2.0   18.414   13.610 -131.168    0.000    0    1        0
+ 19   2.0   0.0   4.0   19.352   -1.810  160.258    0.000    0    1        0
+ 20  -3.0   1.0   3.0   19.635  -13.095   59.057    0.000    0    1        0
+ 21   1.0   1.0   6.0   23.054  -12.823  138.519    0.000    0    1        0
+ 22   1.0  -1.0   6.0   23.055    8.985  138.544    0.000    0    1        0
+ 23   3.0   0.0   3.0   21.502   -1.543  177.235    0.000    0    1        0
+ 24   4.0   0.0   2.0   25.174   -1.247 -169.754    0.000    0    1        0
+
+18-DEC-17:19:44:SINGLE>dvls 4
+18-DEC-17:19:44:SINGLE>opsh
+18-DEC-17:19:44:SINGLE>clsh
+18-DEC-17:19:44:SINGLE>dvls 16
+18-DEC-17:19:44:SINGLE>opsh
+18-DEC-17:19:45:SINGLE>clsh
+18-DEC-17:19:45:SINGLE>dvls 21
+18-DEC-17:19:45:SINGLE>opsh
+18-DEC-17:19:45:SINGLE>clsh
+18-DEC-17:19:45:SINGLE>cent
+ **********ERROR**********
+Diffractometer halted by user
+18-DEC-17:19:46:SINGLE>park
+18-DEC-17:19:46:SINGLE>inl
+INL: Enter Laue group>2/m
+INL: Enter h,k,l>1 3 5
+ REFLECTION    1   3   5 ADDED TO LIST
+ REFLECTION   -1  -3  -5 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1  -3   5 ADDED TO LIST
+ REFLECTION   -1   3  -5 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 26 reflections in the list
+INL: Enter h,k,l>6 0 0
+ REFLECTION    6   0   0 ADDED TO LIST
+ REFLECTION   -6   0   0 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    6   0   0 ALREADY IN THE LIST
+ REFLECTION   -6   0   0 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 27 reflections in the list
+INL: Enter h,k,l>3 1 2
+ REFLECTION    3   1   2 ADDED TO LIST
+ REFLECTION   -3  -1  -2 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    3  -1   2 ADDED TO LIST
+ REFLECTION   -3   1  -2 FRIEDEL MATE ALREADY IN THE LIST
+     There are now 29 reflections in the list
+INL: Enter h,k,l>1 1 6
+ REFLECTION    1   1   6 ALREADY IN THE LIST
+ REFLECTION   -1  -1  -6 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    1  -1   6 ALREADY IN THE LIST
+ REFLECTION   -1   1  -6 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>1 2 2
+ REFLECTION    1   2   2 OUT-OF-BOUNDS
+ REFLECTION   -1  -2  -2 OUT-OF-BOUNDS
+ REFLECTION    1  -2   2 OUT-OF-BOUNDS
+ REFLECTION   -1   2  -2 OUT-OF-BOUNDS
+INL: Enter h,k,l>1 2 -2
+ REFLECTION    1   2  -2 OUT-OF-BOUNDS
+ REFLECTION   -1  -2   2 OUT-OF-BOUNDS
+ REFLECTION    1  -2  -2 OUT-OF-BOUNDS
+ REFLECTION   -1   2   2 OUT-OF-BOUNDS
+INL: Enter h,k,l>0 2 2
+ REFLECTION    0   2   2 OUT-OF-BOUNDS
+ REFLECTION    0  -2  -2 OUT-OF-BOUNDS
+ REFLECTION    0  -2   2 OUT-OF-BOUNDS
+ REFLECTION    0   2  -2 OUT-OF-BOUNDS
+INL: Enter h,k,l>1 2 1
+ REFLECTION    1   2   1 OUT-OF-BOUNDS
+ REFLECTION   -1  -2  -1 OUT-OF-BOUNDS
+ REFLECTION    1  -2   1 OUT-OF-BOUNDS
+ REFLECTION   -1   2  -1 OUT-OF-BOUNDS
+INL: Enter h,k,l>1 2 -1
+ REFLECTION    1   2  -1 OUT-OF-BOUNDS
+ REFLECTION   -1  -2   1 OUT-OF-BOUNDS
+ REFLECTION    1  -2  -1 OUT-OF-BOUNDS
+ REFLECTION   -1   2   1 OUT-OF-BOUNDS
+INL: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   3.0   1.0  -3.0   19.656   -0.078  237.650   23.730    2    1      204
+  2   2.0   1.0  -1.0   12.438    0.067  220.915   27.950    2    1      557
+  3   1.0   0.0  -3.0   11.328    1.301  -86.625    0.000    0    1        0
+  4   2.0  -1.0  -1.0   12.425   20.200 -136.960    0.000    0    1        0
+  5   2.0   0.0  -2.0   12.729    0.293 -120.511    0.000    0    1        0
+  6   2.0  -1.0   1.0   13.245   17.881 -170.259    0.000    0    1        0
+  7   2.0   1.0   1.0   13.246  -20.373 -169.240    0.000    0    1        0
+  8   1.0  -1.0   3.0   13.371   17.057  150.649    0.000    0    1        0
+  9   1.0   1.0   3.0   13.371  -20.839  150.885    0.000    0    1        0
+ 10   1.0  -1.0   4.0   16.456   13.401  144.961    0.000    0    1        0
+ 11   1.0   1.0   4.0   16.456  -17.231  145.045    0.000    0    1        0
+ 12   2.0   0.0  -4.0   17.018    0.978  -98.682    0.000    0    1        0
+ 13   2.0   1.0   3.0   17.197  -16.359  167.699    0.000    0    1        0
+ 14   2.0  -1.0   3.0   17.197   12.929  167.243    0.000    0    1        0
+ 15   3.0  -1.0   0.0   17.919   13.249 -154.056    0.000    0    1        0
+ 16   3.0   1.0   0.0   17.920  -14.832 -153.178    0.000    0    1        0
+ 17   3.0   1.0  -2.0   18.416  -13.704 -130.233    0.000    0    1        0
+ 18   3.0  -1.0  -2.0   18.414   13.610 -131.168    0.000    0    1        0
+ 19   2.0   0.0   4.0   19.352   -1.810  160.258    0.000    0    1        0
+ 20  -3.0   1.0   3.0   19.635  -13.095   59.057    0.000    0    1        0
+ 21   1.0   1.0   6.0   23.054  -12.823  138.519    0.000    0    1        0
+ 22   1.0  -1.0   6.0   23.055    8.985  138.544    0.000    0    1        0
+ 23   3.0   0.0   3.0   21.502   -1.543  177.235    0.000    0    1        0
+ 24   4.0   0.0   2.0   25.174   -1.247 -169.754    0.000    0    1        0
+ 25   1.0   3.0   5.0   23.279  -36.122  141.220    0.000    0    1        0
+ 26   1.0  -3.0   5.0   23.280   32.279  141.187    0.000    0    1        0
+ 27   6.0   0.0   0.0   35.176   -0.792 -153.619    0.000    0    1        0
+ 28   3.0   1.0   2.0   20.073  -13.887 -174.169    0.000    0    1        0
+ 29   3.0  -1.0   2.0   20.072   11.162 -174.774    0.000    0    1        0
+
+18-DEC-17:19:47:SINGLE>zref
+
+ Mat File is: acet_p0_171218.mat
+
+ Peak Centering Parameters
+   Minimum Count Rate:  30 cps, Max/Min Ratio:  2.0, Max Time/Step:  10 secs
+   Required counts on maximum: 250 cps
+   Initial Omega Scan width = 1.00+0.35 tan(th)
+   2Theta/omega will be scanned
+   Chi scan parameters:    31 steps, width parameter =  0.25
+   Final omega scan:  51 steps, width = 0.30+0.35 tan(th)
+   Slit settings: Motor 5 = 2.00 Motor 6 = 9.00
+
+   Final omega scan will be fit by PROFILE
+
+   Refinement flags for fitting final omega scans:
+   Value of eta is fixed at: 0.00
+   Intensity ratio of omega scans is not refined
+
+
+   Current 2 wavelengths are: 0.709316 and 0.713606   Intensity ratio = 0.555
+
+
+   There are 29 reflections with the USE flag set for this crystal
+
+  Continue with these parameters <Y/N>?Y
+  Do you want centering on calc positions or list angles? (C,A)<C>:
+  Do you want the chi order of measurement to be optimised? (Y,N)<N>:
+  Do you want centering to continue after failures? (Y,N)<N>:
+
+ Centering Reflection No.  1 : hkl=   3.0  1.0 -3.0
+ Reflection  1 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    19.6400 -12.5122-120.0550   0.0000       197 0.062     4  0.00
+   -19.6600 -12.5189-120.0625   0.0000       194 0.061     5  0.00
+   -19.6550  12.5113  59.9700   0.0000       207 0.062     3  0.00
+    19.6175  12.4953  59.9900   0.0000       177 0.060     4  0.00
+    19.6325  12.5273 300.0250 180.0000       195 0.058     4  0.00
+   -19.6525  12.5153 300.0150 180.0000       192 0.060     5  0.00
+   -19.6525 -12.4866 120.0200 180.0000       190 0.060     5  0.00
+    19.6125 -12.5000 119.9425 180.0000       176 0.059     4  0.00
+
+                             Averages:       191 0.060     4  0.00
+                                Esd's:        10 0.001     0  0.00
+                          ESD/Average:     0.053 0.020 0.161  0.00
+
+     TRUE ANGLES:    19.6377  -12.5085 -120.0200    0.0000
+          ZEROES:    -0.0147   -0.0034   -0.0194
+ CRYSTAL OFFSETS:    -0.0228    0.0165   -0.0032
+         DELTA-H:    -0.0153
+
+ Successes so far:  1, Fails:  0
+
+
+ Centering Reflection No.  2 : hkl=   2.0  1.0 -1.0
+ Reflection  2 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    12.4325 -20.6947-135.5675   0.0000       498 0.056     3  0.00
+   -12.4325 -20.6944-135.5325   0.0000       520 0.053     2  0.00
+   -12.4300  20.6654  44.5250   0.0000       513 0.055     5  0.00
+    12.4250  20.6552  44.5600   0.0000       520 0.054     4  0.00
+    12.4225  20.6947 315.4775 180.0000       528 0.054     4  0.00
+   -12.4175  20.6792 315.5025 180.0000       503 0.053     5  0.00
+   -12.4200 -20.6650 135.5125 180.0000       510 0.057     4  0.00
+    12.4275 -20.6743 135.3200 180.0000       508 0.056     5  0.00
+
+                             Averages:       513 0.055     4  0.00
+                                Esd's:         9 0.002     0  0.00
+                          ESD/Average:     0.019 0.032 0.215  0.00
+
+     TRUE ANGLES:    12.4249  -20.6774 -135.4784    0.0000
+          ZEROES:     0.0009   -0.0038   -0.0253
+ CRYSTAL OFFSETS:    -0.0222   -0.0054    0.0182
+         DELTA-H:    -0.0549
+
+ Successes so far:  2, Fails:  0
+
+
+ Centering Reflection No.  3 : hkl=   1.0  0.0 -3.0
+ Reflection  3 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    11.3225   1.2952 -86.6125   0.0000       560 0.057     2  0.00
+   -11.3175   1.2741 -86.5225   0.0000       562 0.057     2  0.00
+   -11.3275  -1.2781  93.4250   0.0000       527 0.056     2  0.00
+    11.3375  -1.2966  93.4250   0.0000       512 0.053     2  0.00
+    11.3125  -1.2800 266.5750 180.0000       564 0.054     3  0.00
+   -11.3200  -1.3024 266.5050 180.0000       533 0.056     3  0.00
+   -11.3350   1.2926  86.5775 180.0000       514 0.054     3  0.00
+    11.3375   1.2743  86.5425 180.0000       617 0.052     3  0.00
+
+                             Averages:       548 0.055     3  0.00
+                                Esd's:        34 0.002     0  0.00
+                          ESD/Average:     0.063 0.033 0.253  0.00
+
+     TRUE ANGLES:    11.3279    1.2870  -86.5606    0.0000
+          ZEROES:     0.0012   -0.0020   -0.0106
+ CRYSTAL OFFSETS:    -0.0207   -0.0158    0.0112
+         DELTA-H:    -0.0118
+
+ Successes so far:  3, Fails:  0
+
+
+ Centering Reflection No.  4 : hkl=   2.0 -1.0 -1.0
+ Reflection  4 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    12.4250  20.2112-136.9825   0.0000       502 0.053     4  0.00
+   -12.4200  20.2004-136.9175   0.0000       532 0.058     3  0.00
+   -12.4275 -20.1569  43.1175   0.0000       522 0.054     4  0.00
+    12.4125 -20.1584  43.1575   0.0000       517 0.055     4  0.00
+    12.3975 -20.1933 316.9400 180.0000       511 0.053     4  0.00
+   -12.4250 -20.2213 316.9225 180.0000       544 0.057     4  0.00
+   -12.4400  20.1762 136.8950 180.0000       530 0.052     4  0.00
+    12.4400  20.1496 136.8025 180.0000       526 0.053     4  0.00
+
+                             Averages:       523 0.054     4  0.00
+                                Esd's:        13 0.002     0  0.00
+                          ESD/Average:     0.025 0.038 0.094  0.00
+
+     TRUE ANGLES:    12.4261   20.1864 -136.8981    0.0000
+          ZEROES:    -0.0047   -0.0014   -0.0081
+ CRYSTAL OFFSETS:    -0.0080   -0.0143    0.0278
+         DELTA-H:    -0.0252
+
+ Successes so far:  4, Fails:  0
+
+
+ Centering Reflection No.  5 : hkl=   2.0  0.0 -2.0
+ Reflection  5 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    12.7275   0.2704-120.4850   0.0000       372 0.057     3  0.00
+   -12.7450   0.2692-120.4900   0.0000       344 0.058     2  0.00
+   -12.7350  -0.2553  59.5600   0.0000       336 0.054     3  0.00
+    12.7200  -0.2645  59.5625   0.0000       352 0.056     3  0.00
+    12.7050  -0.2580 300.4725 180.0000       359 0.054     3  0.00
+   -12.7125  -0.2915 300.4400 180.0000       369 0.055     4  0.00
+   -12.7325   0.2700 120.4850 180.0000       360 0.056     4  0.00
+    12.7325   0.2510 120.3900 180.0000       351 0.056     3  0.00
+
+                             Averages:       355 0.056     3  0.00
+                                Esd's:        11 0.001     0  0.00
+                          ESD/Average:     0.034 0.024 0.133  0.00
+
+     TRUE ANGLES:    12.7278    0.2666 -120.4550    0.0000
+          ZEROES:    -0.0050   -0.0036   -0.0081
+ CRYSTAL OFFSETS:    -0.0043   -0.0001    0.0212
+         DELTA-H:    -0.0133
+
+ Successes so far:  5, Fails:  0
+
+
+ Centering Reflection No.  6 : hkl=   2.0 -1.0  1.0
+ Reflection  6 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    13.2825  17.8652-170.2550   0.0000       173 0.056     5  0.00
+   -13.2550  17.8897-170.2325   0.0000       162 0.051     5  0.00
+   -13.2625 -17.8583   9.8375   0.0000       150 0.056     4  0.00
+    13.2525 -17.8747   9.8825   0.0000       157 0.054     5  0.00
+    13.2900 -17.9044 350.2525 180.0000       146 0.056     4  0.00
+   -13.3150 -17.8532 350.2225 180.0000       166 0.056     4  0.00
+   -13.2550  17.8712 170.1475 180.0000       163 0.055     3  0.00
+    13.2500  17.8599 170.0850 180.0000       164 0.056     3  0.00
+
+                             Averages:       160 0.055     4  0.00
+                                Esd's:         8 0.002     0  0.00
+                          ESD/Average:     0.054 0.032 0.184  0.00
+
+     TRUE ANGLES:    13.2445   17.8757 -170.1844    0.0000
+          ZEROES:    -0.0016   -0.0014   -0.0075
+ CRYSTAL OFFSETS:    -0.0296   -0.0561    0.0153
+         DELTA-H:    -0.0026
+
+ Successes so far:  6, Fails:  0
+
+
+ Centering Reflection No.  7 : hkl=   2.0  1.0  1.0
+ Reflection  7 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    13.2550 -20.3892-169.2875   0.0000       155 0.055     4  0.00
+   -13.2450 -20.3878-169.2525   0.0000       148 0.059     4  0.00
+   -13.2525  20.3866  10.8075   0.0000       158 0.056     3  0.00
+    13.2525  20.3772  10.8625   0.0000       153 0.056     5  0.00
+    13.2650  20.3804 349.2500 180.0000       163 0.056     4  0.00
+   -13.2675  20.3960 349.2650 180.0000       156 0.057     4  0.00
+   -13.2300 -20.3944 169.1625 180.0000       158 0.055     4  0.00
+    13.2125 -20.3736 169.0650 180.0000       158 0.055     4  0.00
+
+                             Averages:       156 0.056     4  0.00
+                                Esd's:         4 0.001     0  0.00
+                          ESD/Average:     0.027 0.026 0.125  0.00
+
+     TRUE ANGLES:    13.2461  -20.3860 -169.2016    0.0000
+          ZEROES:    -0.0012   -0.0012   -0.0159
+ CRYSTAL OFFSETS:    -0.0160   -0.0137    0.0194
+         DELTA-H:    -0.0248
+
+ Successes so far:  7, Fails:  0
+
+
+ Centering Reflection No.  8 : hkl=   1.0 -1.0  3.0
+ Reflection  8 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    13.3675  17.0820 150.6025   0.0000       226 0.056     4  0.00
+   -13.3700  17.0854 150.7325   0.0000       214 0.056     4  0.00
+   -13.3600 -17.1105 330.7650   0.0000       212 0.055     4  0.00
+    13.3575 -17.0928 330.7825   0.0000       211 0.056     5  0.00
+    13.3725 -17.0809  29.3350 180.0000       233 0.056     2  0.00
+   -13.3600 -17.0789  29.2800 180.0000       210 0.055     4  0.00
+   -13.4000  17.1087-150.7775 180.0000       221 0.054     4  0.00
+    13.3825  17.0948-150.7950 180.0000       240 0.057     3  0.00
+
+                             Averages:       221 0.056     4  0.00
+                                Esd's:        11 0.001     0  0.00
+                          ESD/Average:     0.050 0.018 0.192  0.00
+
+     TRUE ANGLES:    13.3708   17.0899  150.7300    0.0000
+          ZEROES:    -0.0012    0.0004   -0.0094
+ CRYSTAL OFFSETS:    -0.0047    0.0081    0.0346
+         DELTA-H:    -0.0199
+
+ Successes so far:  8, Fails:  0
+
+
+ Centering Reflection No.  9 : hkl=   1.0  1.0  3.0
+ Reflection  9 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    13.3625 -20.7951 150.8125   0.0000       211 0.054     4  0.00
+   -13.3725 -20.7920 150.8975   0.0000       223 0.054     2  0.00
+   -13.3775  20.8228 330.9325   0.0000       210 0.057     3  0.00
+    13.3750  20.8193 330.9400   0.0000       224 0.056     4  0.00
+    13.3700  20.7869  29.1400 180.0000       212 0.055     4  0.00
+   -13.3725  20.7964  29.1050 180.0000       213 0.054     4  0.00
+   -13.3625 -20.8362-150.9825 180.0000       219 0.056     4  0.00
+    13.3775 -20.8266-150.9850 180.0000       217 0.054     4  0.00
+
+                             Averages:       216 0.055     4  0.00
+                                Esd's:         5 0.001     0  0.00
+                          ESD/Average:     0.025 0.020 0.186  0.00
+
+     TRUE ANGLES:    13.3696  -20.8088  150.9131    0.0000
+          ZEROES:    -0.0000   -0.0031   -0.0175
+ CRYSTAL OFFSETS:     0.0155   -0.0351    0.0106
+         DELTA-H:    -0.0122
+
+ Successes so far:  9, Fails:  0
+
+
+ Centering Reflection No. 10 : hkl=   1.0 -1.0  4.0
+ Reflection 10 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    16.4825  13.4218 144.9600   0.0000       378 0.059     3  0.00
+   -16.4650  13.4504 145.0000   0.0000       386 0.058     4  0.00
+   -16.5700 -13.4063 325.0650   0.0000       369 0.057     5  0.00
+    16.4425 -13.4484 325.0725   0.0000       384 0.058     5  0.00
+    16.4525 -13.4382  34.9925 180.0000       378 0.058     5  0.00
+   -16.4925 -13.4116  34.9650 180.0000       370 0.057     4  0.00
+   -16.4575  13.4473-145.0625 180.0000       383 0.055     4  0.00
+    16.4500  13.4598-145.0900 180.0000       378 0.060     4  0.00
+
+                             Averages:       378 0.058     4  0.00
+                                Esd's:         6 0.002     0  0.00
+                          ESD/Average:     0.016 0.027 0.128  0.00
+
+     TRUE ANGLES:    16.4554   13.4466  145.0366    0.0000
+          ZEROES:    -0.0197   -0.0005   -0.0122
+ CRYSTAL OFFSETS:    -0.0157   -0.0126    0.0301
+         DELTA-H:    -0.0104
+
+ Successes so far: 10, Fails:  0
+
+
+ Centering Reflection No. 11 : hkl=   1.0  1.0  4.0
+ Reflection 11 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    16.4500 -17.1751 144.9725   0.0000       403 0.056     4  0.00
+   -16.4600 -17.1654 145.0700   0.0000       352 0.058     3  0.00
+   -16.4900  17.2106 325.0850   0.0000       386 0.057     6  0.00
+    16.4900  17.1823 325.1200   0.0000       353 0.056     6  0.00
+    16.4475  17.1689  34.9775 180.0000       379 0.057     5  0.00
+   -16.4600  17.1796  34.9300 180.0000       338 0.058     6  0.00
+   -16.4575 -17.2116-145.1475 180.0000       379 0.058     4  0.00
+    16.4675 -17.2060-145.1525 180.0000       360 0.055     6  0.00
+
+                             Averages:       369 0.057     5  0.00
+                                Esd's:        21 0.001     1  0.00
+                          ESD/Average:     0.058 0.021 0.196  0.00
+
+     TRUE ANGLES:    16.4546  -17.1867  145.0800    0.0000
+          ZEROES:    -0.0016   -0.0028   -0.0181
+ CRYSTAL OFFSETS:     0.0104   -0.0321    0.0278
+         DELTA-H:    -0.0065
+
+ Successes so far: 11, Fails:  0
+
+
+ Centering Reflection No. 12 : hkl=   2.0  0.0 -4.0
+ Reflection 12 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    17.0225   0.9123 -98.6375   0.0000       458 0.058     4  0.00
+   -17.0350   0.9066 -98.6275   0.0000       471 0.059     2  0.00
+   -16.9925  -0.9081  81.3800   0.0000       440 0.059     4  0.00
+    17.0350  -0.9201  81.3750   0.0000       475 0.060     5  0.00
+    17.0250  -0.9014 278.6250 180.0000       433 0.060     6  0.00
+   -17.0025  -0.9261 278.6050 180.0000       470 0.059     5  0.00
+   -17.0250   0.9104  98.6475 180.0000       463 0.056     5  0.00
+    16.9975   0.9001  98.6100 180.0000       468 0.057     6  0.00
+
+                             Averages:       460 0.059     5  0.00
+                                Esd's:        15 0.001     1  0.00
+                          ESD/Average:     0.033 0.023 0.244  0.00
+
+     TRUE ANGLES:    17.0189    0.9041  -98.6247    0.0000
+          ZEROES:     0.0031   -0.0017   -0.0028
+ CRYSTAL OFFSETS:    -0.0105   -0.0215   -0.0053
+         DELTA-H:    -0.0105
+
+ Successes so far: 12, Fails:  0
+
+
+ Centering Reflection No. 13 : hkl=   2.0  1.0  3.0
+ Reflection 13 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    17.0300 -16.2494 167.6450   0.0000        60 0.059     3  0.00
+ Failure in Center: Peak too weak on theta/2theta scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+  -17.5050  -16.3950  167.7000    0.0000
+ Reflection Not Found
+
+ Centering Reflection No. 14 : hkl=   2.0 -1.0  3.0
+ Reflection 14 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    17.4900  12.8050 167.2475   0.0000        55 0.060     3  0.00
+   -17.2025  12.9586 167.2625   0.0000        59 0.060     2  0.00
+   -17.3500 -12.8856 347.3325   0.0000        59 0.058     3  0.00
+    17.3100 -13.0148 347.4050   0.0000        62 0.062     3  0.00
+    17.2225 -12.9681  12.7375 180.0000        57 0.061     4  0.00
+   -17.6325 -12.7344  12.7125 180.0000        62 0.063     2  0.00
+   -17.2775  12.9943-167.3550 180.0000        55 0.060     3  0.00
+    17.3825  12.8639-167.3725 180.0000        52 0.059     3  0.00
+
+                             Averages:        58 0.060     3  0.00
+                                Esd's:         3 0.002     0  0.00
+                          ESD/Average:     0.061 0.026 0.198  0.00
+
+     TRUE ANGLES:    17.1967   12.9557  167.3156    0.0000
+          ZEROES:    -0.0072   -0.0012   -0.0037
+ CRYSTAL OFFSETS:    -0.0046    0.0024    0.0223
+         DELTA-H:     0.0218
+
+ Successes so far: 13, Fails:  1
+
+
+ Centering Reflection No. 15 : hkl=   3.0 -1.0  0.0
+ Reflection 15 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    17.8800  13.2468-154.0500   0.0000       152 0.063     4  0.00
+   -17.9775  13.2439-154.0350   0.0000       161 0.061     4  0.00
+   -17.9775 -13.1608  26.0350   0.0000       149 0.059     4  0.00
+    17.9950 -13.2389  26.0725   0.0000       142 0.060     4  0.00
+    17.9300 -13.2220 334.0025 180.0000       156 0.060     4  0.00
+   -17.9175 -13.2300 334.0125 180.0000       169 0.060     4  0.00
+   -17.9325  13.2021 153.9475 180.0000       155 0.060     4  0.00
+    17.8775  13.2110 153.8850 180.0000       169 0.058     5  0.00
+
+                             Averages:       157 0.060     4  0.00
+                                Esd's:         9 0.001     0  0.00
+                          ESD/Average:     0.060 0.024 0.077  0.00
+
+     TRUE ANGLES:    17.9213   13.2080 -153.9781    0.0000
+          ZEROES:    -0.0153   -0.0011   -0.0163
+ CRYSTAL OFFSETS:    -0.0167   -0.0359    0.0113
+         DELTA-H:    -0.0175
+
+ Successes so far: 14, Fails:  1
+
+
+ Centering Reflection No. 16 : hkl=   3.0  1.0  0.0
+ Reflection 16 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    17.8900 -14.8628-153.2225   0.0000       167 0.061     6  0.00
+   -17.9450 -14.8770-153.1950   0.0000       145 0.059     3  0.00
+   -17.9225  14.8841  26.8450   0.0000       159 0.059     4  0.00
+    18.0175  14.8224  26.9225   0.0000       154 0.060     5  0.00
+    17.9500  14.8752 333.2250 180.0000       151 0.058     4  0.00
+   -17.9425  14.8915 333.1775 180.0000       153 0.062     4  0.00
+   -17.9475 -14.8650 153.1275 180.0000       140 0.060     4  0.00
+    17.9500 -14.9000 153.0775 180.0000       153 0.061     4  0.00
+
+                             Averages:       153 0.060     4  0.00
+                                Esd's:         8 0.001     0  0.00
+                          ESD/Average:     0.055 0.019 0.165  0.00
+
+     TRUE ANGLES:    17.9209  -14.8819 -153.1572    0.0000
+          ZEROES:     0.0063   -0.0008   -0.0053
+ CRYSTAL OFFSETS:    -0.0212   -0.0262    0.0273
+         DELTA-H:     0.0167
+
+ Successes so far: 15, Fails:  1
+
+
+ Centering Reflection No. 17 : hkl=   3.0  1.0 -2.0
+ Reflection 17 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    18.4500 -13.8116-130.2400   0.0000       176 0.060     3  0.00
+   -18.5500 -13.7402-130.2300   0.0000       180 0.059     3  0.00
+   -18.3100  13.7340  49.7925   0.0000       180 0.063     5  0.00
+    18.5425  13.7114  49.8350   0.0000       175 0.060     6  0.00
+    18.4800  13.7754 310.2125 180.0000       193 0.060     5  0.00
+   -18.4125  13.7887 310.2050 180.0000       175 0.061     4  0.00
+   -18.4650 -13.7559 130.1900 180.0000       176 0.062     4  0.00
+    18.4050 -13.7917 130.1350 180.0000       173 0.057     5  0.00
+
+                             Averages:       178 0.060     4  0.00
+                                Esd's:         6 0.002     1  0.00
+                          ESD/Average:     0.035 0.031 0.228  0.00
+
+     TRUE ANGLES:    18.4161  -13.7924 -130.1981    0.0000
+          ZEROES:     0.0175   -0.0025   -0.0125
+ CRYSTAL OFFSETS:    -0.0226   -0.0035    0.0038
+         DELTA-H:    -0.0054
+
+ Successes so far: 16, Fails:  1
+
+
+ Centering Reflection No. 18 : hkl=   3.0 -1.0 -2.0
+ Reflection 18 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    18.4725  13.5161-131.1275   0.0000       182 0.061     4  0.00
+   -18.4325  13.5381-131.1375   0.0000       184 0.061     3  0.00
+   -18.4250 -13.4902  48.9125   0.0000       188 0.059     4  0.00
+    18.4400 -13.5246  48.9425   0.0000       171 0.060     5  0.00
+    18.5475 -13.6035 311.1450 180.0000       179 0.060     5  0.00
+   -18.4125 -13.5530 311.1125 180.0000       180 0.061     4  0.00
+   -18.4100  13.5062 131.0925 180.0000       189 0.058     4  0.00
+    18.3650  13.5177 131.0025 180.0000       180 0.059     3  0.00
+
+                             Averages:       182 0.060     4  0.00
+                                Esd's:         5 0.001     0  0.00
+                          ESD/Average:     0.032 0.019 0.127  0.00
+
+     TRUE ANGLES:    18.4143   13.5215 -131.0953    0.0000
+          ZEROES:     0.0181   -0.0026   -0.0072
+ CRYSTAL OFFSETS:    -0.0124   -0.0006    0.0228
+         DELTA-H:    -0.0063
+
+ Successes so far: 17, Fails:  1
+
+
+ Centering Reflection No. 19 : hkl=   2.0  0.0  4.0
+ Reflection 19 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    19.5025  -1.8352 160.2350   0.0000        75 0.060     3  0.00
+   -19.4100  -1.7252 160.2725   0.0000        80 0.060     4  0.00
+   -19.3725   1.7650 340.3350   0.0000        79 0.063     4  0.00
+    19.3525   1.7606 340.3575   0.0000        81 0.063     3  0.00
+    19.3200   1.7694  19.7350 180.0000        81 0.061     3  0.00
+   -19.4650   1.8170  19.7150 180.0000        82 0.062     3  0.00
+   -19.2925  -1.7989-160.3575 180.0000        79 0.064     3  0.00
+    19.3650  -1.7647-160.3600 180.0000        79 0.064     3  0.00
+
+                             Averages:        80 0.062     3  0.00
+                                Esd's:         2 0.002     0  0.00
+                          ESD/Average:     0.027 0.026 0.174  0.00
+
+     TRUE ANGLES:    19.3531   -1.7589  160.3084    0.0000
+          ZEROES:     0.0000   -0.0015   -0.0084
+ CRYSTAL OFFSETS:    -0.0054   -0.0208    0.0172
+         DELTA-H:     0.0009
+
+ Successes so far: 18, Fails:  1
+
+
+ Centering Reflection No. 20 : hkl=  -3.0  1.0  3.0
+ Reflection 20 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    19.7150 -13.0122  59.1375   0.0000       185 0.061     4  0.00
+   -19.6350 -12.9523  59.1275   0.0000       203 0.061     4  0.00
+   -19.6700  13.0014 239.1075   0.0000       193 0.060     5  0.00
+    19.6225  13.0119 239.0875   0.0000       183 0.062     5  0.00
+    19.5025  13.0118 120.8100 180.0000       177 0.057     4  0.00
+   -19.7625  13.0247 120.8625 180.0000       196 0.061     4  0.00
+   -19.6675 -12.9954 -59.0975 180.0000       184 0.063     4  0.00
+    19.6700 -13.0101 -59.1025 180.0000       176 0.061     5  0.00
+
+                             Averages:       187 0.061     4  0.00
+                                Esd's:         9 0.002     0  0.00
+                          ESD/Average:     0.051 0.031 0.092  0.00
+
+     TRUE ANGLES:    19.6364  -12.9781   59.1234    0.0000
+          ZEROES:    -0.0281   -0.0041   -0.0084
+ CRYSTAL OFFSETS:    -0.0149   -0.0090    0.0025
+         DELTA-H:    -0.0258
+
+ Successes so far: 19, Fails:  1
+
+
+ Centering Reflection No. 21 : hkl=   1.0  1.0  6.0
+ Reflection 21 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    23.0625 -12.7305 138.4925   0.0000        98 0.064     2  0.00
+   -23.2200 -12.6235 138.5300   0.0000       103 0.064     2  0.00
+   -23.2275  12.8089 318.5950   0.0000       106 0.062     2  0.00
+    22.9725  12.7782 318.5850   0.0000       100 0.062     3  0.00
+    23.0375  12.7123  41.4925 180.0000       100 0.059     4  0.00
+   -23.0400  12.7092  41.4725 180.0000       106 0.064     3  0.00
+   -23.0400 -12.7556-138.5850 180.0000       109 0.063     3  0.00
+    23.1725 -12.7872-138.5775 180.0000        94 0.066     3  0.00
+
+                             Averages:       102 0.063     3  0.00
+                                Esd's:         5 0.002     0  0.00
+                          ESD/Average:     0.049 0.034 0.192  0.00
+
+     TRUE ANGLES:    23.0551  -12.7237  138.5500    0.0000
+          ZEROES:    -0.0353   -0.0037    0.0006
+ CRYSTAL OFFSETS:     0.0129   -0.0637   -0.0000
+         DELTA-H:    -0.0089
+
+ Successes so far: 20, Fails:  1
+
+
+ Centering Reflection No. 22 : hkl=   1.0 -1.0  6.0
+ Reflection 22 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    22.9750   9.1231 138.5650   0.0000       113 0.062     4  0.00
+   -23.2175   9.1779 138.6000   0.0000       107 0.060     3  0.00
+   -23.0900  -9.0996 318.6650   0.0000       112 0.060     4  0.00
+    22.9925  -9.0691 318.6650   0.0000       107 0.064     3  0.00
+    23.0325  -9.0834  41.4225 180.0000       103 0.063     2  0.00
+   -23.1625  -9.0273  41.4025 180.0000       109 0.060     3  0.00
+   -22.9550   9.0396-138.6550 180.0000       115 0.064     3  0.00
+    23.1250   9.0729-138.6700 180.0000       103 0.063     3  0.00
+
+                             Averages:       108 0.062     3  0.00
+                                Esd's:         4 0.002     0  0.00
+                          ESD/Average:     0.041 0.031 0.200  0.00
+
+     TRUE ANGLES:    23.0570    9.0963  138.6244    0.0000
+          ZEROES:    -0.0375   -0.0020   -0.0006
+ CRYSTAL OFFSETS:    -0.0091   -0.0038    0.0276
+         DELTA-H:    -0.0132
+
+ Successes so far: 21, Fails:  1
+
+
+ Centering Reflection No. 23 : hkl=   3.0  0.0  3.0
+ Reflection 23 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    21.4425  -1.4919 177.1925   0.0000        72 0.064     3  0.00
+   -21.4875  -1.5304 177.2450   0.0000        75 0.066     2  0.00
+   -21.5500   1.5538 357.3025   0.0000        71 0.068     2  0.00
+    21.6100   1.4742 357.3475   0.0000        70 0.063     4  0.00
+    21.4750   1.5377   2.7500 180.0000        63 0.065     3  0.00
+   -21.5275   1.5339   2.7525 180.0000        78 0.066     3  0.00
+   -21.5450  -1.5121-177.3150 180.0000        74 0.062     2  0.00
+    21.5725  -1.5668-177.3625 180.0000        63 0.064     3  0.00
+
+                             Averages:        71 0.065     3  0.00
+                                Esd's:         5 0.002     0  0.00
+                          ESD/Average:     0.075 0.029 0.220  0.00
+
+     TRUE ANGLES:    21.5032   -1.5267  177.2828    0.0000
+          ZEROES:    -0.0012   -0.0008   -0.0109
+ CRYSTAL OFFSETS:    -0.0057   -0.0284    0.0279
+         DELTA-H:    -0.0234
+
+ Successes so far: 22, Fails:  1
+
+
+ Centering Reflection No. 24 : hkl=   4.0  0.0  2.0
+ Reflection 24 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    25.1650  -1.2551-169.7450   0.0000       164 0.059     4  0.00
+   -25.2225  -1.2415-169.7550   0.0000       177 0.063     3  0.00
+   -25.1775   1.2724  10.3325   0.0000       159 0.062     4  0.00
+    25.1825   1.2639  10.3400   0.0000       177 0.060     6  0.00
+    25.2075   1.2507 349.7650 180.0000       175 0.061     2  0.00
+   -25.1700   1.2580 349.7425 180.0000       177 0.062     4  0.00
+   -25.1775  -1.2725 169.6775 180.0000       179 0.061     3  0.00
+    25.1350  -1.2561 169.6275 180.0000       172 0.060     4  0.00
+
+                             Averages:       172 0.061     4  0.00
+                                Esd's:         7 0.001     1  0.00
+                          ESD/Average:     0.042 0.019 0.239  0.00
+
+     TRUE ANGLES:    25.1764   -1.2677 -169.7050    0.0000
+          ZEROES:    -0.0072   -0.0011   -0.0019
+ CRYSTAL OFFSETS:    -0.0157   -0.0109    0.0133
+         DELTA-H:    -0.0047
+
+ Successes so far: 23, Fails:  1
+
+
+ Centering Reflection No. 25 : hkl=   1.0  3.0  5.0
+ Reflection 25 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+ Failure in Center: peak too weak on initial omega scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   23.2800  -35.8525  141.2200    0.0000
+ Reflection Not Found
+
+ Centering Reflection No. 26 : hkl=   1.0 -3.0  5.0
+ Reflection 26 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+ Failure in Center: peak too weak on initial omega scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   23.2800   32.1450  141.1875    0.0000
+ Reflection Not Found
+
+ Centering Reflection No. 27 : hkl=   6.0  0.0  0.0
+ Reflection 27 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+ Failure in Center: peak too weak on initial omega scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   35.1750   -1.8800 -153.6175    0.0000
+ Reflection Not Found
+
+ Centering Reflection No. 28 : hkl=   3.0  1.0  2.0
+ Reflection 28 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+ Centering failed in mtstep of motor 2
+ No single maximum found in scan
+ Failure in Center during initial omega scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   20.0725  -12.6987 -174.1700    0.0000
+ Reflection Not Found
+
+ Centering Reflection No. 29 : hkl=   3.0 -1.0  2.0
+ Reflection 29 of 29
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+ Failure in Center: peak too weak on initial omega scan
+MOTOR POSITIONS AFTER FAILURE OF CENTER:
+   20.0725   11.3012 -174.7750    0.0000
+ Reflection Not Found
+
+
+   AVERAGE ZEROES AND OFFSETS FROM 23 REFLECTIONS WITH 4 OR 8 EQUIVALENTS
+     Angles:    -0.006   -0.002   -0.010
+     DeltaH:    -0.012
+       Xtal:    -0.011   -0.017    0.017
+
+19-DEC-17:05:35:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  4   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  5   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  6   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  7   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 12   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 13   2.0   1.0   3.0   17.197  -16.359  167.699    0.000    0    0        0
+ 14   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 15   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 16   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 17   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 18   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 19   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 20  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 24   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 25   1.0   3.0   5.0   23.279  -36.122  141.220    0.000    0    0        0
+ 26   1.0  -3.0   5.0   23.280   32.279  141.187    0.000    0    0        0
+ 27   6.0   0.0   0.0   35.176   -0.792 -153.619    0.000    0    0        0
+ 28   3.0   1.0   2.0   20.073  -13.887 -174.169    0.000    0    0        0
+ 29   3.0  -1.0   2.0   20.072   11.162 -174.774    0.000    0    0        0
+
+19-DEC-17:09:40:SINGLE>lsq
+
+
+   N  H  K  L    TTHO    TTHC         Vector Deltas
+
+   1  3  1 -3   19.64   19.64    0.00001  0.00053 -0.00017
+   2  2  1 -1   12.42   12.43    0.00005  0.00017 -0.00011
+   3  1  0 -3   11.33   11.33    0.00004  0.00037  0.00003
+   4  2 -1 -1   12.43   12.43    0.00001  0.00025  0.00012
+   5  2  0 -2   12.73   12.73    0.00001  0.00025  0.00004
+   6  2 -1  1   13.24   13.25    0.00005  0.00003  0.00005
+   7  2  1  1   13.25   13.24    0.00001 -0.00009 -0.00008
+   8  1 -1  3   13.37   13.37    0.00001 -0.00008 -0.00001
+   9  1  1  3   13.37   13.37    0.00004 -0.00017 -0.00004
+  10  1 -1  4   16.46   16.46    0.00002 -0.00007 -0.00004
+  11  1  1  4   16.45   16.45    0.00003 -0.00016 -0.00005
+  12  2  0 -4   17.02   17.02    0.00000  0.00010  0.00001
+  14  2 -1  3   17.20   17.20    0.00005  0.00000  0.00000
+  15  3 -1  0   17.92   17.92   -0.00001 -0.00004 -0.00004
+  16  3  1  0   17.92   17.92   -0.00004 -0.00020  0.00011
+  17  3  1 -2   18.42   18.42   -0.00002 -0.00025  0.00008
+  18  3 -1 -2   18.41   18.42    0.00001 -0.00017 -0.00002
+  19  2  0  4   19.35   19.35   -0.00000  0.00007  0.00002
+  20 -3  1  3   19.64   19.64    0.00004  0.00031  0.00007
+  21  1  1  6   23.06   23.05   -0.00001  0.00023  0.00012
+  22  1 -1  6   23.06   23.06   -0.00004  0.00046 -0.00015
+  23  3  0  3   21.50   21.50   -0.00001 -0.00000  0.00005
+  24  4  0  2   25.18   25.17   -0.00004 -0.00019  0.00005
+
+      23 Reflections used
+
+Orientation Matrix:
+    -0.12714     0.00277    -0.04793
+    -0.00203    -0.10648    -0.00264
+    -0.06322    -0.00211     0.07151
+
+
+
+ Cell      7.10139   9.38598  11.70888  89.982  97.418  89.994  773.9061
+ Sigmas    0.00025   0.00526   0.00072   0.015   0.004   0.012    0.4368
+
+19-DEC-17:09:41:SINGLE>clsq
+
+Crystal Systems: 1-Monoclinic (B-unique), 2-Monoclinic (C-unique)
+3-Orthorhombic, 4-Tetragonal, 5-Hexagonal, 6-Cubic, 7-Rhombohedral
+CLSQ: Input choice>1
+Results for Constrained Refinement
+
+
+                  OBS     CAL             Vector Deltas
+   N   h   k   l  2TH     2TH        Del X     Del Y     Del Z     Length
+
+   1   3   1  -3  19.638  19.637   0.00004   0.00052  -0.00019     0.00056
+   2   2   1  -1  12.425  12.426   0.00008   0.00017  -0.00013     0.00023
+   3   1   0  -3  11.328  11.329   0.00004   0.00036   0.00003     0.00036
+   4   2  -1  -1  12.426  12.426  -0.00002   0.00024   0.00014     0.00028
+   5   2   0  -2  12.728  12.729   0.00001   0.00024   0.00004     0.00024
+   6   2  -1   1  13.244  13.245   0.00002   0.00003   0.00007     0.00008
+   7   2   1   1  13.246  13.245   0.00003  -0.00009  -0.00010     0.00014
+   8   1  -1   3  13.371  13.371  -0.00002  -0.00007   0.00000     0.00007
+   9   1   1   3  13.370  13.371   0.00007  -0.00016  -0.00006     0.00019
+  10   1  -1   4  16.455  16.456  -0.00001  -0.00006  -0.00002     0.00006
+  11   1   1   4  16.455  16.456   0.00006  -0.00014  -0.00007     0.00017
+  12   2   0  -4  17.019  17.019   0.00000   0.00009   0.00001     0.00009
+  14   2  -1   3  17.197  17.198   0.00003   0.00001   0.00002     0.00004
+  15   3  -1   0  17.921  17.920  -0.00004  -0.00004  -0.00002     0.00006
+  16   3   1   0  17.921  17.920  -0.00001  -0.00020   0.00009     0.00022
+  17   3   1  -2  18.416  18.416   0.00001  -0.00026   0.00006     0.00027
+  18   3  -1  -2  18.414  18.416  -0.00002  -0.00019  -0.00000     0.00019
+  19   2   0   4  19.353  19.353  -0.00000   0.00008   0.00002     0.00008
+  20  -3   1   3  19.636  19.637   0.00006   0.00033   0.00005     0.00034
+  21   1   1   6  23.055  23.055   0.00002   0.00026   0.00010     0.00028
+  22   1  -1   6  23.057  23.055  -0.00007   0.00048  -0.00013     0.00050
+  23   3   0   3  21.503  21.503  -0.00000   0.00001   0.00005     0.00005
+  24   4   0   2  25.176  25.175  -0.00004  -0.00018   0.00005     0.00019
+
+      23 Reflections used
+
+
+ Cell      7.10138   9.38591  11.70883  90.000  97.418  90.000  773.8962
+ Sigmas    0.00096   0.00328   0.00116   0.000   0.010   0.000    0.2988
+
+
+19-DEC-17:09:41:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  4   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  5   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  6   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  7   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 12   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 13   2.0   1.0   3.0   17.197  -16.359  167.699    0.000    0    0        0
+ 14   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 15   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 16   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 17   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 18   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 19   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 20  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 24   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 25   1.0   3.0   5.0   23.279  -36.122  141.220    0.000    0    0        0
+ 26   1.0  -3.0   5.0   23.280   32.279  141.187    0.000    0    0        0
+ 27   6.0   0.0   0.0   35.176   -0.792 -153.619    0.000    0    0        0
+ 28   3.0   1.0   2.0   20.073  -13.887 -174.169    0.000    0    0        0
+ 29   3.0  -1.0   2.0   20.072   11.162 -174.774    0.000    0    0        0
+
+19-DEC-17:09:48:SINGLE>sort 2
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   2.0   1.0   3.0   17.197  -16.359  167.699    0.000    0    0        0
+ 14   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 15   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 16   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 17   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 18   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 19  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 20   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 21   3.0  -1.0   2.0   20.072   11.162 -174.774    0.000    0    0        0
+ 22   3.0   1.0   2.0   20.073  -13.887 -174.169    0.000    0    0        0
+ 23   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 24   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 25   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 26   1.0   3.0   5.0   23.279  -36.122  141.220    0.000    0    0        0
+ 27   1.0  -3.0   5.0   23.280   32.279  141.187    0.000    0    0        0
+ 28   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 29   6.0   0.0   0.0   35.176   -0.792 -153.619    0.000    0    0        0
+
+19-DEC-17:09:48:SINGLE>del 13,21,22,26,27,29
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+
+19-DEC-17:09:48:SINGLE>inh
+INH: Enter h,k,l>0 2 2
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>0 1 1
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>1 2 -2
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>1 2 -1
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>1 1 1
+INH: Enter h,k,l>1 1 4
+INH: Enter h,k,l>1 4 -4
+ REFLECTION OUT-OF-BOUNDS
+INH: Enter h,k,l>2 1 -1
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 24   1.0   1.0   1.0    8.344  -32.810  177.946    0.000    0    1        0
+ 25   1.0   1.0   4.0   16.455  -17.163  145.076    0.000    0    1        0
+ 26   2.0   1.0  -1.0   12.426  -20.711 -135.501    0.000    0    1        0
+
+19-DEC-17:09:54:SINGLE>del 25
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 24   1.0   1.0   1.0    8.344  -32.810  177.946    0.000    0    1        0
+ 25   2.0   1.0  -1.0   12.426  -20.711 -135.501    0.000    0    1        0
+
+19-DEC-17:09:54:SINGLE>del 24
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 24   2.0   1.0  -1.0   12.426  -20.711 -135.501    0.000    0    1        0
+
+19-DEC-17:09:54:SINGLE>del 24
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+
+19-DEC-17:09:54:SINGLE>inh
+INH: Enter h,k,l>2 1 3
+INH: Enter h,k,l>2 0 4
+INH: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 24   2.0   1.0   3.0   17.196  -16.321  167.729    0.000    0    1        0
+ 25   2.0   0.0   4.0   19.353   -1.767  160.311    0.000    0    1        0
+
+19-DEC-17:09:58:SINGLE>inl
+INL: Enter Laue group>2/m
+INL: Enter h,k,l>2 1 3
+ REFLECTION    2   1   3 ALREADY IN THE LIST
+ REFLECTION   -2  -1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2  -1   3 ALREADY IN THE LIST
+ REFLECTION   -2   1  -3 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 24   2.0   1.0   3.0   17.196  -16.321  167.729    0.000    0    1        0
+ 25   2.0   0.0   4.0   19.353   -1.767  160.311    0.000    0    1        0
+
+19-DEC-17:10:00:SINGLE>inl
+INL: Enter Laue group>2/m
+INL: Enter h,k,l>2 0 4
+ REFLECTION    2   0   4 ALREADY IN THE LIST
+ REFLECTION   -2   0  -4 FRIEDEL MATE ALREADY IN THE LIST
+ REFLECTION    2   0   4 ALREADY IN THE LIST
+ REFLECTION   -2   0  -4 FRIEDEL MATE ALREADY IN THE LIST
+ ALL EQUIVALENTS ALREADY IN LIST
+INL: Enter h,k,l>
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 24   2.0   1.0   3.0   17.196  -16.321  167.729    0.000    0    1        0
+ 25   2.0   0.0   4.0   19.353   -1.767  160.311    0.000    0    1        0
+
+19-DEC-17:10:00:SINGLE>omit 1,-23
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    0      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    0      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    0      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    0      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    0      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    0      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    0      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    0      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    0      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    0      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    0      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    0       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    0      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    0      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    0      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    0      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    0       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    0      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    0      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    0       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    0      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    0      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    0      172
+ 24   2.0   1.0   3.0   17.196  -16.321  167.729    0.000    0    1        0
+ 25   2.0   0.0   4.0   19.353   -1.767  160.311    0.000    0    1        0
+
+19-DEC-17:10:00:SINGLE>zref
+
+ Mat File is: acet_p0_171218.mat
+
+ Peak Centering Parameters
+   Minimum Count Rate:  30 cps, Max/Min Ratio:  2.0, Max Time/Step:  10 secs
+   Required counts on maximum: 250 cps
+   Initial Omega Scan width = 1.00+0.35 tan(th)
+   2Theta/omega will be scanned
+   Chi scan parameters:    31 steps, width parameter =  0.25
+   Final omega scan:  51 steps, width = 0.30+0.35 tan(th)
+   Slit settings: Motor 5 = 2.00 Motor 6 = 9.00
+
+   Final omega scan will be fit by PROFILE
+
+   Refinement flags for fitting final omega scans:
+   Value of eta is fixed at: 0.00
+   Intensity ratio of omega scans is not refined
+
+
+   Current 2 wavelengths are: 0.709316 and 0.713606   Intensity ratio = 0.555
+
+
+   There are  2 reflections with the USE flag set for this crystal
+
+  Continue with these parameters <Y/N>?Y
+  Do you want centering on calc positions or list angles? (C,A)<C>:
+  Do you want the chi order of measurement to be optimised? (Y,N)<N>:
+  Do you want centering to continue after failures? (Y,N)<N>:
+
+ Centering Reflection No. 24 : hkl=   2.0  1.0  3.0
+ Reflection  1 of  2
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    17.2725 -16.3323 167.5950   0.0000        56 0.060     4  0.00
+   -17.2850 -16.2422 167.6125   0.0000        56 0.064     4  0.00
+   -17.1600  16.2783 347.6925   0.0000        63 0.060     3  0.00
+    17.1700  16.3149 347.7325   0.0000        49 0.061     4  0.00
+    17.2550  16.2585  12.3750 180.0000        58 0.063     4  0.00
+   -17.3050  16.3417  12.3425 180.0000        53 0.060     3  0.00
+   -17.2675 -16.2703-167.7575 180.0000        57 0.060     3  0.00
+    17.4725 -16.4400-167.7675 180.0000        52 0.063     3  0.00
+
+                             Averages:        55 0.061     4  0.00
+                                Esd's:         4 0.002     0  0.00
+                          ESD/Average:     0.075 0.027 0.087  0.00
+
+     TRUE ANGLES:    17.1968  -16.2952  167.6800    0.0000
+          ZEROES:     0.0191   -0.0019   -0.0219
+ CRYSTAL OFFSETS:     0.0119   -0.0444    0.0140
+         DELTA-H:     0.0153
+
+ Successes so far:  1, Fails:  0
+
+
+ Centering Reflection No. 25 : hkl=   2.0  0.0  4.0
+ Reflection  2 of  2
+
+     2Theta    Omega      Chi      Phi    Intens Width  Chi2   Eta
+    19.3775  -1.7267 160.2225   0.0000        82 0.059     3  0.00
+   -19.4600  -1.6556 160.2950   0.0000        87 0.061     3  0.00
+   -19.3925   1.7324 340.3250   0.0000        89 0.065     5  0.00
+    19.4850   1.6501 340.3475   0.0000        78 0.060     3  0.00
+    19.3000   1.7345  19.7550 180.0000        81 0.062     3  0.00
+   -19.5225   1.8017  19.7200 180.0000        80 0.064     4  0.00
+   -19.3325  -1.7359-160.3525 180.0000        80 0.062     4  0.00
+    19.5200  -1.7974-160.3450 180.0000        81 0.062     3  0.00
+
+                             Averages:        82 0.062     4  0.00
+                                Esd's:         3 0.002     0  0.00
+                          ESD/Average:     0.045 0.030 0.204  0.00
+
+     TRUE ANGLES:    19.3532   -1.7146  160.3016    0.0000
+          ZEROES:    -0.0031   -0.0012   -0.0041
+ CRYSTAL OFFSETS:    -0.0036   -0.0287    0.0240
+         DELTA-H:    -0.0028
+
+ Successes so far:  2, Fails:  0
+
+
+
+   AVERAGE ZEROES AND OFFSETS FROM  2 REFLECTIONS WITH 4 OR 8 EQUIVALENTS
+     Angles:     0.008   -0.002   -0.013
+     DeltaH:     0.006
+       Xtal:     0.004   -0.037    0.019
+
+19-DEC-17:11:30:SINGLE>
+19-DEC-17:11:35:SINGLE>
+19-DEC-17:11:35:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    0      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    0      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    0      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    0      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    0      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    0      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    0      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    0      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    0      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    0      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    0      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    0       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    0      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    0      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    0      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    0      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    0       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    0      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    0      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    0       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    0      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    0      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    0      172
+ 24   2.0   1.0   3.0   17.197  -16.295  167.680    0.000    8    1       55
+ 25   2.0   0.0   4.0   19.353   -1.715  160.302    0.000    8    1       82
+
+19-DEC-17:11:35:SINGLE>use 1,-25
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 14   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 15   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 16   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 17   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 18  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 19   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 20   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 21   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 22   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 23   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+ 24   2.0   1.0   3.0   17.197  -16.295  167.680    0.000    8    1       55
+ 25   2.0   0.0   4.0   19.353   -1.715  160.302    0.000    8    1       82
+
+19-DEC-17:11:35:SINGLE>sort 2
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   2.0   1.0   3.0   17.197  -16.295  167.680    0.000    8    1       55
+ 14   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 15   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 16   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 17   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 18   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 19   2.0   0.0   4.0   19.353   -1.715  160.302    0.000    8    1       82
+ 20  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 21   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 22   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 23   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 24   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    1      108
+ 25   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+
+19-DEC-17:11:35:SINGLE>lsq
+
+
+   N  H  K  L    TTHO    TTHC         Vector Deltas
+
+   1  1  0 -3   11.33   11.33    0.00004  0.00039  0.00004
+   2  2  1 -1   12.42   12.42    0.00005  0.00016 -0.00014
+   3  2 -1 -1   12.43   12.43    0.00001  0.00025  0.00014
+   4  2  0 -2   12.73   12.73    0.00001  0.00025  0.00003
+   5  2 -1  1   13.24   13.25    0.00005  0.00001  0.00006
+   6  2  1  1   13.25   13.24    0.00001 -0.00013 -0.00011
+   7  1  1  3   13.37   13.37    0.00004 -0.00022 -0.00008
+   8  1 -1  3   13.37   13.37    0.00001 -0.00010 -0.00002
+   9  1  1  4   16.45   16.45    0.00003 -0.00021 -0.00009
+  10  1 -1  4   16.46   16.46    0.00002 -0.00011 -0.00004
+  11  2  0 -4   17.02   17.02    0.00000  0.00012  0.00002
+  12  2 -1  3   17.20   17.20    0.00005 -0.00003 -0.00000
+  13  2  1  3   17.20   17.20    0.00000  0.00013  0.00031
+  14  3  1  0   17.92   17.92   -0.00004 -0.00024  0.00007
+  15  3 -1  0   17.92   17.92   -0.00001 -0.00005 -0.00004
+  16  3 -1 -2   18.41   18.42    0.00001 -0.00017 -0.00001
+  17  3  1 -2   18.42   18.41   -0.00002 -0.00027  0.00005
+  18  2  0  4   19.35   19.35   -0.00000  0.00002 -0.00001
+  19  2  0  4   19.35   19.35    0.00000  0.00038  0.00005
+  20 -3  1  3   19.64   19.64    0.00003  0.00030  0.00005
+  21  3  1 -3   19.64   19.64    0.00001  0.00053 -0.00019
+  22  3  0  3   21.50   21.50   -0.00001 -0.00005  0.00002
+  23  1  1  6   23.06   23.05   -0.00001  0.00017  0.00006
+  24  1 -1  6   23.06   23.06   -0.00004  0.00041 -0.00017
+  25  4  0  2   25.18   25.17   -0.00004 -0.00024  0.00002
+
+      25 Reflections used
+
+Orientation Matrix:
+    -0.12714     0.00277    -0.04793
+    -0.00203    -0.10648    -0.00263
+    -0.06321    -0.00209     0.07151
+
+
+
+ Cell      7.10153   9.38688  11.70835  89.986  97.418  89.985  773.9612
+ Sigmas    0.00030   0.00523   0.00087   0.017   0.005   0.012    0.4360
+
+19-DEC-17:11:35:SINGLE>clsq
+
+Crystal Systems: 1-Monoclinic (B-unique), 2-Monoclinic (C-unique)
+3-Orthorhombic, 4-Tetragonal, 5-Hexagonal, 6-Cubic, 7-Rhombohedral
+CLSQ: Input choice>1
+Results for Constrained Refinement
+
+
+                  OBS     CAL             Vector Deltas
+   N   h   k   l  2TH     2TH        Del X     Del Y     Del Z     Length
+
+   1   1   0  -3  11.328  11.329   0.00004   0.00038   0.00004     0.00039
+   2   2   1  -1  12.425  12.426   0.00009   0.00016  -0.00015     0.00023
+   3   2  -1  -1  12.426  12.426  -0.00003   0.00025   0.00014     0.00029
+   4   2   0  -2  12.728  12.729   0.00001   0.00024   0.00003     0.00025
+   5   2  -1   1  13.244  13.245   0.00001   0.00002   0.00006     0.00007
+   6   2   1   1  13.246  13.245   0.00004  -0.00012  -0.00012     0.00018
+   7   1   1   3  13.370  13.371   0.00008  -0.00021  -0.00009     0.00024
+   8   1  -1   3  13.371  13.371  -0.00003  -0.00009  -0.00001     0.00010
+   9   1   1   4  16.455  16.456   0.00006  -0.00020  -0.00010     0.00023
+  10   1  -1   4  16.455  16.456  -0.00002  -0.00009  -0.00003     0.00010
+  11   2   0  -4  17.019  17.019   0.00000   0.00011   0.00002     0.00011
+  12   2  -1   3  17.197  17.197   0.00002  -0.00002   0.00000     0.00002
+  13   2   1   3  17.197  17.197   0.00004   0.00014   0.00030     0.00033
+  14   3   1   0  17.921  17.919  -0.00000  -0.00024   0.00006     0.00024
+  15   3  -1   0  17.921  17.919  -0.00005  -0.00005  -0.00003     0.00008
+  16   3  -1  -2  18.414  18.415  -0.00003  -0.00018  -0.00000     0.00018
+  17   3   1  -2  18.416  18.415   0.00002  -0.00027   0.00005     0.00028
+  18   2   0   4  19.353  19.353  -0.00000   0.00003  -0.00001     0.00003
+  19   2   0   4  19.353  19.353   0.00000   0.00040   0.00005     0.00040
+  20  -3   1   3  19.636  19.636   0.00007   0.00031   0.00004     0.00032
+  21   3   1  -3  19.638  19.636   0.00005   0.00052  -0.00020     0.00056
+  22   3   0   3  21.503  21.503  -0.00001  -0.00004   0.00002     0.00005
+  23   1   1   6  23.055  23.056   0.00002   0.00019   0.00006     0.00020
+  24   1  -1   6  23.057  23.056  -0.00008   0.00042  -0.00016     0.00046
+  25   4   0   2  25.176  25.175  -0.00004  -0.00023   0.00002     0.00023
+
+      25 Reflections used
+
+
+ Cell      7.10153   9.38688  11.70836  90.000  97.418  90.000  773.9615
+ Sigmas    0.00101   0.00338   0.00118   0.000   0.010   0.000    0.3076
+
+
+19-DEC-17:11:35:SINGLE>omit 13,24
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.244   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   2.0   1.0   3.0   17.197  -16.295  167.680    0.000    8    0       55
+ 14   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 15   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 16   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 17   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 18   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 19   2.0   0.0   4.0   19.353   -1.715  160.302    0.000    8    1       82
+ 20  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 21   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 22   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 23   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 24   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    0      108
+ 25   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+
+19-DEC-17:11:36:SINGLE>lsq
+
+
+   N  H  K  L    TTHO    TTHC         Vector Deltas
+
+   1  1  0 -3   11.33   11.33    0.00005  0.00035  0.00005
+   2  2  1 -1   12.42   12.43    0.00005  0.00013 -0.00010
+   3  2 -1 -1   12.43   12.43    0.00000  0.00026  0.00012
+   4  2  0 -2   12.73   12.73    0.00002  0.00023  0.00005
+   5  2 -1  1   13.24   13.25    0.00005  0.00006  0.00003
+   6  2  1  1   13.25   13.24    0.00001 -0.00013 -0.00008
+   7  1  1  3   13.37   13.37    0.00004 -0.00019 -0.00005
+   8  1 -1  3   13.37   13.37   -0.00000 -0.00003 -0.00005
+   9  1  1  4   16.45   16.45    0.00002 -0.00017 -0.00006
+  10  1 -1  4   16.46   16.46    0.00001 -0.00003 -0.00007
+  11  2  0 -4   17.02   17.02    0.00001  0.00007  0.00003
+  12  2 -1  3   17.20   17.20    0.00005  0.00004 -0.00003
+  14  3  1  0   17.92   17.92   -0.00004 -0.00025  0.00011
+  15  3 -1  0   17.92   17.92   -0.00002 -0.00002 -0.00006
+  16  3 -1 -2   18.41   18.42    0.00001 -0.00017 -0.00002
+  17  3  1 -2   18.42   18.42   -0.00002 -0.00031  0.00010
+  18  2  0  4   19.35   19.35   -0.00001  0.00008 -0.00001
+  19  2  0  4   19.35   19.35   -0.00000  0.00045  0.00005
+  20 -3  1  3   19.64   19.64    0.00003  0.00032  0.00006
+  21  3  1 -3   19.64   19.64    0.00002  0.00047 -0.00015
+  22  3  0  3   21.50   21.50   -0.00001  0.00000  0.00003
+  23  1  1  6   23.06   23.05   -0.00002  0.00023  0.00009
+  25  4  0  2   25.18   25.17   -0.00004 -0.00019  0.00003
+
+      23 Reflections used
+
+Orientation Matrix:
+    -0.12714     0.00277    -0.04793
+    -0.00203    -0.10646    -0.00264
+    -0.06321    -0.00212     0.07151
+
+
+
+ Cell      7.10140   9.38859  11.70820  89.981  97.415  89.996  774.0823
+ Sigmas    0.00023   0.00532   0.00068   0.015   0.003   0.011    0.4420
+
+19-DEC-17:11:36:SINGLE>clsq
+
+Crystal Systems: 1-Monoclinic (B-unique), 2-Monoclinic (C-unique)
+3-Orthorhombic, 4-Tetragonal, 5-Hexagonal, 6-Cubic, 7-Rhombohedral
+CLSQ: Input choice>1
+Results for Constrained Refinement
+
+
+                  OBS     CAL             Vector Deltas
+   N   h   k   l  2TH     2TH        Del X     Del Y     Del Z     Length
+
+   1   1   0  -3  11.328  11.329   0.00005   0.00034   0.00005     0.00034
+   2   2   1  -1  12.425  12.425   0.00008   0.00012  -0.00012     0.00019
+   3   2  -1  -1  12.426  12.425  -0.00002   0.00026   0.00014     0.00029
+   4   2   0  -2  12.728  12.730   0.00002   0.00022   0.00004     0.00022
+   5   2  -1   1  13.244  13.245   0.00002   0.00006   0.00005     0.00008
+   6   2   1   1  13.246  13.245   0.00003  -0.00012  -0.00010     0.00016
+   7   1   1   3  13.370  13.371   0.00007  -0.00018  -0.00007     0.00020
+   8   1  -1   3  13.371  13.371  -0.00003  -0.00002  -0.00002     0.00004
+   9   1   1   4  16.455  16.456   0.00005  -0.00015  -0.00008     0.00018
+  10   1  -1   4  16.455  16.456  -0.00001  -0.00001  -0.00005     0.00005
+  11   2   0  -4  17.019  17.020   0.00001   0.00005   0.00003     0.00006
+  12   2  -1   3  17.197  17.197   0.00002   0.00005  -0.00001     0.00006
+  14   3   1   0  17.921  17.919  -0.00001  -0.00025   0.00009     0.00027
+  15   3  -1   0  17.921  17.919  -0.00004  -0.00002  -0.00004     0.00006
+  16   3  -1  -2  18.414  18.416  -0.00001  -0.00018  -0.00000     0.00018
+  17   3   1  -2  18.416  18.416   0.00001  -0.00032   0.00008     0.00033
+  18   2   0   4  19.353  19.353  -0.00001   0.00010  -0.00001     0.00010
+  19   2   0   4  19.353  19.353  -0.00000   0.00046   0.00005     0.00047
+  20  -3   1   3  19.636  19.637   0.00006   0.00033   0.00004     0.00034
+  21   3   1  -3  19.638  19.637   0.00005   0.00046  -0.00017     0.00049
+  22   3   0   3  21.503  21.503  -0.00001   0.00001   0.00003     0.00003
+  23   1   1   6  23.055  23.056   0.00001   0.00026   0.00007     0.00027
+  25   4   0   2  25.176  25.175  -0.00004  -0.00019   0.00003     0.00019
+
+      23 Reflections used
+
+
+ Cell      7.10139   9.38867  11.70827  90.000  97.415  90.000  774.0924
+ Sigmas    0.00093   0.00329   0.00118   0.000   0.010   0.000    0.2985
+
+
+19-DEC-17:11:37:SINGLE>park
+19-DEC-17:11:37:SINGLE>exit
+Parking the diffractometer
+     *****OPENING COMMUNICATIONS ON COM1:....please wait.....
+                                                                                                                                                                                                                                                               
+
+
+Checking motor positions, please wait:
+               MOTOR 1 Controller: 1     OK
+               MOTOR 2 Controller: 2     OK
+               MOTOR 3 Controller: 3     OK
+               MOTOR 4 Controller: 4     OK
+               MOTOR 5 Controller: 5     OK
+               MOTOR 6 Controller: 6     OK
+
+
+                    SINGLE2014 Diffractometer Control Program
+                             RJ ANGEL, LW FINGER
+                          BASE VERSION OF 10-Nov-2017
+VERSION FOR  Northwestern HUBER ON SMC9300 INTERFACE
+NORMAL MODE
+Started at:21-DEC-17 13:19
+
+
+SUCCESSFULLY OPENED MAT FILE:
+
+
+ Mat File is: acet_p0_171218.mat
+
+
+
+
+ Cell      7.10139   9.38860  11.70824  89.981  97.415  89.995  774.0844
+
+ Peak Centering Parameters
+   Minimum Count Rate:  30 cps, Max/Min Ratio:  2.0, Max Time/Step:  10 secs
+   Required counts on maximum: 250 cps
+   Initial Omega Scan width = 1.00+0.35 tan(th)
+   2Theta/omega will be scanned
+   Chi scan parameters:    31 steps, width parameter =  0.25
+   Final omega scan:  51 steps, width = 0.30+0.35 tan(th)
+   Slit settings: Motor 5 = 2.00 Motor 6 = 9.00
+
+   Final omega scan will be fit by PROFILE
+
+   Refinement flags for fitting final omega scans:
+   Value of eta is fixed at: 0.00
+   Intensity ratio of omega scans is not refined
+
+
+   Current 2 wavelengths are: 0.709316 and 0.713606   Intensity ratio = 0.555
+
+
+
+Current Device is DAC        with following constraints:
+  Fixed Phi Mode, Psi(max) = 90.0
+
+
+
+21-DEC-17:13:19:SINGLE>list
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.245   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   2.0   1.0   3.0   17.197  -16.295  167.680    0.000    8    0       55
+ 14   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 15   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 16   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 17   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 18   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 19   2.0   0.0   4.0   19.353   -1.715  160.302    0.000    8    1       82
+ 20  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 21   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    1      191
+ 22   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 23   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 24   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    0      108
+ 25   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+
+21-DEC-17:13:21:SINGLE>clsq
+
+Crystal Systems: 1-Monoclinic (B-unique), 2-Monoclinic (C-unique)
+3-Orthorhombic, 4-Tetragonal, 5-Hexagonal, 6-Cubic, 7-Rhombohedral
+CLSQ: Input choice>1
+Results for Constrained Refinement
+
+
+                  OBS     CAL             Vector Deltas
+   N   h   k   l  2TH     2TH        Del X     Del Y     Del Z     Length
+
+   1   1   0  -3  11.328  11.329   0.00005   0.00034   0.00005     0.00034
+   2   2   1  -1  12.425  12.425   0.00008   0.00012  -0.00012     0.00019
+   3   2  -1  -1  12.426  12.425  -0.00002   0.00026   0.00014     0.00029
+   4   2   0  -2  12.728  12.730   0.00002   0.00022   0.00004     0.00022
+   5   2  -1   1  13.245  13.245   0.00002   0.00006   0.00005     0.00008
+   6   2   1   1  13.246  13.245   0.00003  -0.00012  -0.00010     0.00016
+   7   1   1   3  13.370  13.371   0.00007  -0.00018  -0.00007     0.00020
+   8   1  -1   3  13.371  13.371  -0.00003  -0.00002  -0.00002     0.00004
+   9   1   1   4  16.455  16.456   0.00005  -0.00015  -0.00008     0.00018
+  10   1  -1   4  16.455  16.456  -0.00002  -0.00001  -0.00005     0.00005
+  11   2   0  -4  17.019  17.020   0.00001   0.00005   0.00003     0.00006
+  12   2  -1   3  17.197  17.197   0.00002   0.00005  -0.00001     0.00006
+  14   3   1   0  17.921  17.919  -0.00001  -0.00025   0.00009     0.00027
+  15   3  -1   0  17.921  17.919  -0.00004  -0.00002  -0.00004     0.00006
+  16   3  -1  -2  18.414  18.416  -0.00001  -0.00018  -0.00000     0.00018
+  17   3   1  -2  18.416  18.416   0.00001  -0.00032   0.00008     0.00033
+  18   2   0   4  19.353  19.353  -0.00001   0.00010  -0.00001     0.00010
+  19   2   0   4  19.353  19.353  -0.00000   0.00046   0.00005     0.00047
+  20  -3   1   3  19.636  19.637   0.00006   0.00033   0.00004     0.00034
+  21   3   1  -3  19.638  19.637   0.00004   0.00046  -0.00017     0.00049
+  22   3   0   3  21.503  21.503  -0.00001   0.00001   0.00003     0.00003
+  23   1   1   6  23.055  23.056   0.00000   0.00026   0.00007     0.00027
+  25   4   0   2  25.176  25.175  -0.00004  -0.00019   0.00003     0.00019
+
+      23 Reflections used
+
+
+ Cell      7.10140   9.38866  11.70826  90.000  97.415  90.000  774.0920
+ Sigmas    0.00093   0.00329   0.00118   0.000   0.010   0.000    0.2985
+
+
+21-DEC-17:13:21:SINGLE>omit 19,21
+
+
+ NO     H     K     L    TTH      OMEGA     CHI      PHI   REF  USE INTENSITY
+  1   1.0   0.0  -3.0   11.328    1.287  -86.561    0.000    8    1      548
+  2   2.0   1.0  -1.0   12.425  -20.677 -135.478    0.000    8    1      513
+  3   2.0  -1.0  -1.0   12.426   20.186 -136.898    0.000    8    1      523
+  4   2.0   0.0  -2.0   12.728    0.267 -120.455    0.000    8    1      355
+  5   2.0  -1.0   1.0   13.245   17.876 -170.184    0.000    8    1      160
+  6   2.0   1.0   1.0   13.246  -20.386 -169.202    0.000    8    1      156
+  7   1.0   1.0   3.0   13.370  -20.809  150.913    0.000    8    1      216
+  8   1.0  -1.0   3.0   13.371   17.090  150.730    0.000    8    1      221
+  9   1.0   1.0   4.0   16.455  -17.187  145.080    0.000    8    1      369
+ 10   1.0  -1.0   4.0   16.455   13.447  145.037    0.000    8    1      378
+ 11   2.0   0.0  -4.0   17.019    0.904  -98.625    0.000    8    1      460
+ 12   2.0  -1.0   3.0   17.197   12.956  167.316    0.000    8    1       58
+ 13   2.0   1.0   3.0   17.197  -16.295  167.680    0.000    8    0       55
+ 14   3.0   1.0   0.0   17.921  -14.882 -153.157    0.000    8    1      153
+ 15   3.0  -1.0   0.0   17.921   13.208 -153.978    0.000    8    1      157
+ 16   3.0  -1.0  -2.0   18.414   13.521 -131.095    0.000    8    1      182
+ 17   3.0   1.0  -2.0   18.416  -13.792 -130.198    0.000    8    1      178
+ 18   2.0   0.0   4.0   19.353   -1.759  160.308    0.000    8    1       80
+ 19   2.0   0.0   4.0   19.353   -1.715  160.302    0.000    8    0       82
+ 20  -3.0   1.0   3.0   19.636  -12.978   59.123    0.000    8    1      187
+ 21   3.0   1.0  -3.0   19.638  -12.509 -120.020    0.000    8    0      191
+ 22   3.0   0.0   3.0   21.503   -1.527  177.283    0.000    8    1       71
+ 23   1.0   1.0   6.0   23.055  -12.724  138.550    0.000    8    1      102
+ 24   1.0  -1.0   6.0   23.057    9.096  138.624    0.000    8    0      108
+ 25   4.0   0.0   2.0   25.176   -1.268 -169.705    0.000    8    1      172
+
+21-DEC-17:13:22:SINGLE>clsq
+
+Crystal Systems: 1-Monoclinic (B-unique), 2-Monoclinic (C-unique)
+3-Orthorhombic, 4-Tetragonal, 5-Hexagonal, 6-Cubic, 7-Rhombohedral
+CLSQ: Input choice>1
+Results for Constrained Refinement
+
+
+                  OBS     CAL             Vector Deltas
+   N   h   k   l  2TH     2TH        Del X     Del Y     Del Z     Length
+
+   1   1   0  -3  11.328  11.329   0.00005   0.00037   0.00003     0.00037
+   2   2   1  -1  12.425  12.426   0.00007   0.00021  -0.00015     0.00026
+   3   2  -1  -1  12.426  12.426  -0.00000   0.00027   0.00013     0.00030
+   4   2   0  -2  12.728  12.729   0.00002   0.00027   0.00003     0.00027
+   5   2  -1   1  13.245  13.245   0.00003   0.00007   0.00006     0.00010
+   6   2   1   1  13.246  13.245   0.00002  -0.00004  -0.00011     0.00012
+   7   1   1   3  13.370  13.371   0.00005  -0.00012  -0.00007     0.00015
+   8   1  -1   3  13.371  13.371  -0.00001  -0.00004  -0.00000     0.00004
+   9   1   1   4  16.455  16.456   0.00003  -0.00010  -0.00008     0.00013
+  10   1  -1   4  16.455  16.456  -0.00000  -0.00003  -0.00002     0.00004
+  11   2   0  -4  17.019  17.019   0.00001   0.00011  -0.00000     0.00011
+  12   2  -1   3  17.197  17.197   0.00004   0.00005   0.00001     0.00007
+  14   3   1   0  17.921  17.920  -0.00003  -0.00014   0.00007     0.00016
+  15   3  -1   0  17.921  17.920  -0.00002   0.00001  -0.00004     0.00005
+  16   3  -1  -2  18.414  18.415   0.00000  -0.00015  -0.00002     0.00015
+  17   3   1  -2  18.416  18.415  -0.00000  -0.00021   0.00004     0.00022
+  18   2   0   4  19.353  19.353  -0.00001   0.00013   0.00000     0.00013
+  20  -3   1   3  19.636  19.636   0.00004   0.00029   0.00006     0.00030
+  22   3   0   3  21.503  21.503  -0.00001   0.00007   0.00003     0.00008
+  23   1   1   6  23.055  23.055  -0.00001   0.00031   0.00008     0.00032
+  25   4   0   2  25.176  25.175  -0.00004  -0.00010   0.00002     0.00011
+
+      21 Reflections used
+
+
+ Cell      7.10152   9.38540  11.70895  90.000  97.419  90.000  773.8754
+ Sigmas    0.00081   0.00278   0.00103   0.000   0.009   0.000    0.2531
+
+
+21-DEC-17:13:22:SINGLE>lsq
+
+
+   N  H  K  L    TTHO    TTHC         Vector Deltas
+
+   1  1  0 -3   11.33   11.33    0.00005  0.00038  0.00003
+   2  2  1 -1   12.42   12.43    0.00005  0.00021 -0.00013
+   3  2 -1 -1   12.43   12.43    0.00000  0.00027  0.00012
+   4  2  0 -2   12.73   12.73    0.00002  0.00028  0.00003
+   5  2 -1  1   13.24   13.25    0.00004  0.00006  0.00004
+   6  2  1  1   13.25   13.25    0.00001 -0.00004 -0.00009
+   7  1  1  3   13.37   13.37    0.00004 -0.00013 -0.00006
+   8  1 -1  3   13.37   13.37   -0.00000 -0.00005 -0.00002
+   9  1  1  4   16.45   16.46    0.00002 -0.00012 -0.00006
+  10  1 -1  4   16.46   16.46    0.00001 -0.00005 -0.00005
+  11  2  0 -4   17.02   17.02    0.00001  0.00012  0.00000
+  12  2 -1  3   17.20   17.20    0.00005  0.00005 -0.00001
+  14  3  1  0   17.92   17.92   -0.00004 -0.00014  0.00009
+  15  3 -1  0   17.92   17.92   -0.00002  0.00001 -0.00006
+  16  3 -1 -2   18.41   18.41    0.00001 -0.00014 -0.00003
+  17  3  1 -2   18.42   18.42   -0.00001 -0.00020  0.00006
+  18  2  0  4   19.35   19.35   -0.00001  0.00012  0.00000
+  20 -3  1  3   19.64   19.64    0.00003  0.00028  0.00008
+  22  3  0  3   21.50   21.50   -0.00001  0.00007  0.00003
+  23  1  1  6   23.06   23.05   -0.00002  0.00029  0.00010
+  25  4  0  2   25.18   25.17   -0.00004 -0.00010  0.00002
+
+      21 Reflections used
+
+Orientation Matrix:
+    -0.12714     0.00277    -0.04793
+    -0.00205    -0.10649    -0.00264
+    -0.06321    -0.00211     0.07151
+
+
+
+ Cell      7.10151   9.38525  11.70883  89.986  97.419  90.002  773.8547
+ Sigmas    0.00023   0.00444   0.00067   0.013   0.003   0.010    0.3697
+
+21-DEC-17:15:42:SINGLE>clsq
+
+Crystal Systems: 1-Monoclinic (B-unique), 2-Monoclinic (C-unique)
+3-Orthorhombic, 4-Tetragonal, 5-Hexagonal, 6-Cubic, 7-Rhombohedral
+CLSQ: Input choice>1
+Results for Constrained Refinement
+
+
+                  OBS     CAL             Vector Deltas
+   N   h   k   l  2TH     2TH        Del X     Del Y     Del Z     Length
+
+   1   1   0  -3  11.328  11.329   0.00005   0.00037   0.00003     0.00037
+   2   2   1  -1  12.425  12.426   0.00007   0.00021  -0.00015     0.00026
+   3   2  -1  -1  12.426  12.426  -0.00000   0.00027   0.00013     0.00030
+   4   2   0  -2  12.728  12.729   0.00002   0.00027   0.00003     0.00027
+   5   2  -1   1  13.245  13.245   0.00003   0.00007   0.00006     0.00010
+   6   2   1   1  13.246  13.245   0.00002  -0.00004  -0.00011     0.00012
+   7   1   1   3  13.370  13.371   0.00005  -0.00012  -0.00007     0.00015
+   8   1  -1   3  13.371  13.371  -0.00001  -0.00004  -0.00000     0.00004
+   9   1   1   4  16.455  16.456   0.00003  -0.00010  -0.00008     0.00013
+  10   1  -1   4  16.455  16.456  -0.00000  -0.00003  -0.00002     0.00004
+  11   2   0  -4  17.019  17.019   0.00001   0.00011  -0.00000     0.00011
+  12   2  -1   3  17.197  17.197   0.00004   0.00005   0.00001     0.00007
+  14   3   1   0  17.921  17.920  -0.00003  -0.00014   0.00007     0.00016
+  15   3  -1   0  17.921  17.920  -0.00002   0.00001  -0.00004     0.00005
+  16   3  -1  -2  18.414  18.415   0.00000  -0.00015  -0.00002     0.00015
+  17   3   1  -2  18.416  18.415  -0.00000  -0.00021   0.00004     0.00022
+  18   2   0   4  19.353  19.353  -0.00001   0.00013   0.00000     0.00013
+  20  -3   1   3  19.636  19.636   0.00004   0.00029   0.00006     0.00030
+  22   3   0   3  21.503  21.503  -0.00001   0.00007   0.00003     0.00008
+  23   1   1   6  23.055  23.055  -0.00001   0.00031   0.00008     0.00032
+  25   4   0   2  25.176  25.175  -0.00004  -0.00010   0.00002     0.00011
+
+      21 Reflections used
+
+
+ Cell      7.10152   9.38540  11.70895  90.000  97.419  90.000  773.8754
+ Sigmas    0.00081   0.00278   0.00103   0.000   0.009   0.000    0.2531
+
+
+21-DEC-17:15:42:SINGLE>exit
+Parking the diffractometer
